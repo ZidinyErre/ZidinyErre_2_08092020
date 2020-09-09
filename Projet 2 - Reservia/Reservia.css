@@ -12,3 +12,11 @@ body
 	src:url(Raleway/static/Raleway-ExtraLight.ttf);
 }
 /*header*/
+ .fa-star
+{
+	color: blue;
+}
+#white
+{
+	color:  beige;
+}
