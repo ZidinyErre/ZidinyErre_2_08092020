@@ -6,16 +6,17 @@
 	<script src="https://kit.fontawesome.com/44a04334d0.js" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 </head>
-<body>
 
+<body>
+<div id="page">
 <header>
-	<figure><img src="images/logo/Reservia@3x.png" alt="logo_du_site"></figure>
-	<h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>En plein centre ville ou en pleine nature</p>
+	<figure><img src="images/logo/Webp.net-resizeimage.png" alt="logo_du_site"></figure>
+	<h1>Trouvez votre hébergement pour des vacances de rêve</h1>En plein centre ville ou en pleine nature</p>
 	<!-- la recherche doit rester sur Marseilles,France -->
 	<form method="post" >
 		<label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville"><button>Rechercher</button>
 	</form>
-</header>
+
 <p>
 <em>Filtres</em> &nbsp; <i class="fas fa-money-bill-wave"></i>Economiques &nbsp; <i class="fas fa-child"></i>Familiale &nbsp; <i class="fas fa-heart"></i>Romantique &nbsp; <i class="fas fa-dog"></i>Animaux autorisées 
 </p>
@@ -24,14 +25,18 @@
 	<i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
 </p>
 <nav>
+	<!-- deux doivent mener a endroit page -->
 	<a href="#">Hébergements</a>
 	<a href="#">Activités</a>
 	<a href="#">S'inscrire</a>
 </nav>
+</header>
+
 <section>
 	<article>
 		<h1>Hébergements à Marseille</h1>
-		 <p><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre_d'hôtel"><br><em>Auberge la Cannebière</em><br>Nuit à partir de 25€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i></p>
+		<!-- faire toute les images cliquable -->
+		 <p><a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre_d'hôtel"></a><br><em>Auberge la Cannebière</em><br>Nuit à partir de 25€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i></p>
 		
 		<p><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre_d'hôtel"><br><em>Hôtel du port</em><br>Nuit à partir de 52€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 		</p> 
@@ -91,4 +96,5 @@
 </footer>
 
 </body>
+</div>
 </html>

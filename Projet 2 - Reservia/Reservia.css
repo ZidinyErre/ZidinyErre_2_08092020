@@ -4,7 +4,14 @@ font-family: 'Raleway';
 }
 body
 {
+	border: 2px black solid;
 
+}
+#page
+{
+	width: 960px;
+	max-width: 960px;
+	margin:auto;	
 }
 @font-face
 {
@@ -12,6 +19,24 @@ body
 	src:url(Raleway/static/Raleway-ExtraLight.ttf);
 }
 /*header*/
+header
+{
+	
+}
+h1
+{
+ font-size: 18px;
+ font-weight: bold;
+}
+nav
+{
+	
+}
+
+
+
+/*section1*/
+
  .fa-star
 {
 	color: blue;
