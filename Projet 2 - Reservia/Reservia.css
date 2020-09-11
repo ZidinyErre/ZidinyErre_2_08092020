@@ -65,34 +65,54 @@ header form
 .fa-money-bill-wave
 {
 	background-color: #DEEBFF;
-	padding: 3px 5px 3px 4px ;
+	padding: 10px 9px 10px 6px ;
 	margin-left:-1px;
 	border-radius: 15px;
 	color: #0065FC;
+	position: relative;
+	right: 9px;
 }
 .fa-child
 {
     background-color: #DEEBFF;
-	padding: 3px 5px 3px 4px ;
-	margin-left:-1px;
+	padding: 10px 11px 10px 14px ;
+	margin-left:-5px;
 	border-radius: 15px;
 	color: #0065FC;
+	position: relative;
+	right: 5px;
 }
 .fa-heart
 {
 	background-color: #DEEBFF;
-	padding: 3px 5px 3px 4px ;
-	margin-left:-1px;
+	padding: 10px 11px 10px 13px ;
+	margin-left:-4px;
 	border-radius: 15px;
-	color: #0065FC;   
+	color: #0065FC; 
+	position: relative;
+	right: 4.5px;  
 }
 .fa-dog
 {
 	background-color: #DEEBFF;
-	padding: 3px 5px 3px 4px ;
-	margin-left:-1px;
+	padding: 10px 7px 10px 12px ;
+	margin-left:-8.5px;
+	margin-right: 1.5px;
 	border-radius: 15px;
 	color: #0065FC;
+}
+.rappel .fa-info
+{
+	color: #0065FC;
+	border: 2px #F2F2F2 solid;
+	border-radius: 40px;
+	margin: 5px 5px 5px 5px ;
+	padding: 7px 11px 7px 11px;
+
+}
+.rappel
+{
+	font-size: 0.95em; 
 }
 nav
 {
@@ -128,6 +148,11 @@ nav a:hover
 
 
 /*section1*/
+#hebergements
+{
+	display: flex;
+}
+
 
  .fa-star
 {
