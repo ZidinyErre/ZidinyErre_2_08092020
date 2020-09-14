@@ -5,6 +5,7 @@ font-family: 'Raleway';
 body
 {
 	
+	
 }
 #page
 {
@@ -360,7 +361,151 @@ background-color: white;
 }
 
 /*section2*/
-#activites
+ section #lieu
 {
+	display: flex;
+	margin-left: 25px;	
+}
+.lieu1
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 425px;
+	height:583px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.lieu1 img
+{
+	width:420px;
+	height: 550px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu1 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.lieu4
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 425px;
+	height:583px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.lieu4 img
+{
+	width:420px;
+	height: 550px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu4 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.lieu2
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 230px;
+	height:235px;
 	
+}
+.lieu2 img
+{
+	width:230px;
+	height: 200px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu2 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.lieu3
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 230px;
+	height:235px;
+	
+}
+.lieu3 img
+{
+	width:230px;
+	height: 200px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu3 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.lieu5
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 230px;
+	height:235px;
+	
+}
+.lieu5 img
+{
+	width:230px;
+	height: 200px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu5 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.lieu6
+{
+	border-radius: 15px;
+	box-shadow: 0px 5px 20px black;
+	width: 230px;
+	height:235px;
+	
+}
+.lieu6 img
+{
+	width:230px;
+	height: 200px;
+	border-radius: 15px 15px 0px 0px;
+}
+.lieu6 figcaption
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+/*footer*/
+footer
+{
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-around;
+}
+footer div
+{
+	display: flex;
+	flex-direction: column;
+}
+footer a
+{
+	text-decoration: none;
+	color: black;
 }
