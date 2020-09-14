@@ -157,9 +157,10 @@ nav a:hover
 }
 #hebergements article
 {
-	width: 70%;
+	width: 55%;
 	height: 700px;
-	margin-right: 30px;
+	margin-left: 20px;
+	margin-right: 80px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	display: flex;
@@ -170,24 +171,37 @@ nav a:hover
 }
 #hebergements aside
 {
+	width: 40%;
+	height: 700px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
 }
 #hebergements article h1
 {
-	border: 2px black solid;
+	
 	height: 20px;
 	width: 100%;
+	padding-left: 35px;
+}
+#afficher
+{
+	
+	width: 100%;
+	height: 20px;
+	display: flex;
+	align-self: flex-end;
+	justify-content: flex-start;
+	padding-left: 35px;
 }
 .chambre1
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
  background-color: white;
  padding: 3px;
+ margin-left: -41px;
 }
 .chambre1 img
 {
@@ -197,7 +211,6 @@ nav a:hover
 }
 .chambre2
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
@@ -213,7 +226,6 @@ nav a:hover
 }
 .chambre3
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
@@ -229,7 +241,6 @@ nav a:hover
 }
 .chambre4
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
@@ -245,7 +256,6 @@ nav a:hover
 }
 .chambre5
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
@@ -261,7 +271,6 @@ nav a:hover
 }
 .chambre6
 {
- border: 2px black solid;
  width: 225px;
  height: 195px;
  border-radius: 15px;
