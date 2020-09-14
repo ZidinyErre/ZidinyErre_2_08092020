@@ -4,15 +4,13 @@ font-family: 'Raleway';
 }
 body
 {
-	border: 2px black solid;
-
+	
 }
 #page
 {
 	width: 1280;
 	max-width: 1280;
 	margin:auto;
-	border: 2px black solid;
 	
 }
 @font-face
@@ -169,6 +167,13 @@ nav a:hover
 	justify-content:space-around;
 
 }
+#hebergements article h1
+{
+	
+	height: 20px;
+	width: 100%;
+	padding-left: 35px;
+}
 #hebergements aside
 {
 	width: 40%;
@@ -177,13 +182,20 @@ nav a:hover
 	border-radius: 15px;
 	padding-right: 30px;
 }
-#hebergements article h1
+#hebergements aside h1
 {
 	
-	height: 20px;
 	width: 100%;
-	padding-left: 35px;
+	display: flex;
+	justify-content: space-around;
+	padding-right: ;
+	padding-left:;
 }
+.fa-chart-line
+{
+	color: black;
+}
+
 #afficher
 {
 	
@@ -193,6 +205,14 @@ nav a:hover
 	align-self: flex-end;
 	justify-content: flex-start;
 	padding-left: 35px;
+	text-decoration: none;
+	color: black;
+}
+#afficher a 
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 .chambre1
 {
@@ -284,8 +304,52 @@ nav a:hover
 	width: 225px;
 	height: 125px;
 }
+.chambre7
+{
+border: 2px black solid;
+margin-left: 20px;
+height: 125px;
+display:flex;
+margin-bottom: 70px;
+margin-top: 30px;
+background-color: white;
 
- 
+}
+.chambre7 img
+{
+	width: 200px ;
+	height:130px;
+}
+.chambre8
+{
+border: 2px black solid;
+margin-left: 20px;
+height: 125px;
+display:flex;
+margin-bottom: 70px;
+background-color: white;
+
+}
+.chambre8 img
+{
+	width: 200px ;
+	height:130px;
+}
+.chambre9
+{
+border: 2px black solid;
+margin-left: 20px;
+height: 125px;
+display:flex;
+margin-bottom: 70px;
+background-color: white;
+
+}
+.chambre9 img
+{
+	width: 200px ;
+	height:130px;
+} 
  .fa-star
 {
 	color: blue;
@@ -293,4 +357,10 @@ nav a:hover
 #white
 {
 	color:  grey;
+}
+
+/*section2*/
+#activites
+{
+	
 }
