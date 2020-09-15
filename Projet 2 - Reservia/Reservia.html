@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Reservia</title>
-	<link rel="stylesheet" type="text/css" href="Reservia.css">
-	<script src="https://kit.fontawesome.com/44a04334d0.js" crossorigin="anonymous"></script>
-	<meta charset="utf-8">
-</head>
+	<head>
+		<title>Reservia</title>
+		<link rel="stylesheet" type="text/css" href="Reservia.css">
+		<script src="https://kit.fontawesome.com/44a04334d0.js" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
+	</head>
 
-<body>
-<div id="page">
-<header>
-	<figure><img src="images/logo/Webp.net-resizeimage.png" alt="logo_du_site"></figure>
-	<h1>Trouvez votre hébergement pour des vacances de rêve</h1><p>En plein centre ville ou en pleine nature</p>
+	<body>
+		<div id="page">
+			<header>
+				<figure><img src="images/logo/Webp.net-resizeimage.png" alt="logo_du_site"></figure>
+				<h1>Trouvez votre hébergement pour des vacances de rêve</h1><p>En plein centre ville ou en pleine nature</p>
 	<!-- la recherche doit rester sur Marseilles,France -->
-	<form method="post" >
-		<label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" value="Marseille,France"><button>Rechercher</button>
-	</form>
+				<form method="post" >
+					<label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" value="Marseille,France"><button>Rechercher</button>
+				</form>
 
-<p class="filtres">
-<em>Filtres</em> &nbsp; <span class="petitf"><i class="fas fa-money-bill-wave"></i>Economiques</span> &nbsp; <span class="petitf"><i class="fas fa-child"></i>Familiale</span> &nbsp; <span class="petitf"><i class="fas fa-heart"></i>Romantique</span> &nbsp; <span class="petitf"><i class="fas fa-dog"></i>Animaux autorisées</span> 
-</p>
-<p class="rappel">
-	<i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
-</p>
-<nav>
-	<!-- deux doivent mener a endroit page -->
-	<a href="#" class="d_info">Hébergements</a>
-	<a href="#" class="d_info">Activités</a>
-	<a href="#" id="inscrire">S'inscrire</a>
-</nav>
-</header>
+				<p class="filtres">
+					<em>Filtres</em> &nbsp; <span class="petitf"><i class="fas fa-money-bill-wave"></i>Economiques</span> &nbsp; <span class="petitf"><i class="fas fa-child"></i>Familiale</span> &nbsp; <span class="petitf"><i class="fas fa-heart"></i>Romantique</span> &nbsp; <span class="petitf"><i class="fas fa-dog"></i>Animaux autorisées</span> 
+				</p>
+				<p class="rappel">
+					<i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
+				</p>
+				<nav>
+					<ul>
+						<li><a href="#" class="d_info">Hébergements</a></li>
+						<li><a href="#" class="d_info">Activités</a></li>
+						<li><a href="#" id="inscrire">S'inscrire</a></li>
+					</ul>
+				</nav>
+			</header>
 
-<section id="hebergements">
-	<article>
-		<h1>Hébergements à Marseille</h1>
+			<section id="hotels">
+				<div id="hebergements">
+					<h1>Hébergements à Marseille</h1>
 		<br>
-		 <p class="chambre1"><a href="#"><img src="images/hebergements/4_small/marcusmin.jpg" alt="chambre_d'hôtel"></a><br><em>Auberge la Cannebière</em><br>Nuit à partir de 25€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i></p>
+		 <div class="chambre chambre1"><a href="#"><img src="images/hebergements/4_small/marcusmin.jpg" alt="chambre_d'hôtel"></a><br><em>Auberge la Cannebière</em><br>Nuit à partir de 25€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i></div>
 		
 		<p class="chambre2"><a href="#"><img src="images/hebergements/4_small/fredmin.jpg" alt="chambre_d'hôtel"></a><br><em>Hôtel du port</em><br>Nuit à partir de 52€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 		</p> 
@@ -50,11 +51,11 @@
 		<p class="chambre6"><a href="#"><img src="images/hebergements/4_small/febrianmin.jpg" alt="chambre_d'hôtel"></a><br><em>Hôtel chez Amina</em><br>Nuit à partir de 95€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" ></i></p>
 
 		<p id="afficher"><a href="#">Afficher plus</a></p>
-	</article>
+	</div>
 	<aside>
 		<h1>Les plus populaires <a href="#"><i class="fas fa-chart-line"></i>  </h1>
 		
-		<p class="chambre7"><img src="images/hebergements/4_small/emilemin.jpg" alt="chambre_d'hôtel"></a><br><em>Hôtel Le soleil du matin</em><br>Nuit à partir de 128€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" ></i></p>
+		<p class="pop populaire1"><img src="images/hebergements/4_small/emilemin.jpg" alt="chambre_d'hôtel"></a><br><em>Hôtel Le soleil du matin</em><br>Nuit à partir de 128€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" ></i></p>
 
 		<p class="chambre8"><a href="#"><img src="images/hebergements/4_small/awmin.jpg" alt="chambre_d'hôtel"></a><br><em> Au coeur de l'eau Chambres d'hôtes</em><br>Nuit à partir de 71€<br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i></p>
 
