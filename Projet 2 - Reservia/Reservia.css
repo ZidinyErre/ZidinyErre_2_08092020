@@ -12,7 +12,7 @@ body
 	width: 1280;
 	max-width: 1280;
 	margin:auto;
-	
+	border: 2px black solid;
 }
 @font-face
 {
@@ -33,14 +33,14 @@ header figure img
 	margin-left: 2px;
 	margin-right: 20px;
 	position: relative;
-	top: 30px;
-	right:  52px;
+	top: 45px ;
+	right: 45px;
 }
 header h1
 {
 	padding-top: 20px;
 	padding-bottom: 1px;
-	margin-bottom: 1px;
+	margin-bottom: 5px;
  	font-size: 18px;
  	font-weight: bold;
  	position: relative;
@@ -48,10 +48,9 @@ header h1
 }
 header form
 {
-	margin-right: 2px;
 	width: 500px;
 	height: 40px;
-	padding-left: 20px;
+
 }
 form i
 {
@@ -139,13 +138,20 @@ border: none;
 {
 	font-size: 0.95em; 
 }
-nav
+header nav
 {
-	 
 	display: flex;
 	align-self: flex-end;
 	position: relative;
-	bottom: 250px;
+	bottom: 320px;
+}
+nav ul
+{
+	 
+	display: flex;
+	list-style-type: none;
+	margin-right: 2px;
+	
 }
 nav a
 {
@@ -164,23 +170,26 @@ nav a:hover
 .d_info 
 {
 	padding-right: 30px;
+
 }
 #inscrire
 {
 	font-weight: bold;
 	color: #0065FC;
+	margin-right: 2px;
+
 }
 
 
 
 
 /*section1*/
-#hebergements
+#hotels
 {
 	display: flex;
 	
 }
-#hebergements article
+#hotels #hebergements 
 {
 	width: 55%;
 	height: 700px;
@@ -194,14 +203,14 @@ nav a:hover
 	justify-content:space-around;
 
 }
-#hebergements article h1
+#hotels #hebergements h1
 {
 	
 	height: 20px;
 	width: 100%;
 	padding-left: 35px;
 }
-#hebergements aside
+#hotels aside
 {
 	width: 40%;
 	height: 700px;
@@ -209,7 +218,7 @@ nav a:hover
 	border-radius: 15px;
 	padding-right: 30px;
 }
-#hebergements aside h1
+#hotels aside h1
 {
 	
 	width: 100%;
@@ -241,6 +250,11 @@ nav a:hover
 	color: black;
 	font-weight: bold;
 }
+.chambre
+{
+  font-size: 10px;
+
+}
 .chambre1
 {
  width: 225px;
@@ -248,7 +262,6 @@ nav a:hover
  border-radius: 15px;
  background-color: white;
  padding: 3px;
- margin-left: -41px;
 }
 .chambre1 img
 {
@@ -331,7 +344,7 @@ nav a:hover
 	width: 225px;
 	height: 125px;
 }
-.chambre7
+.populaire1
 {
 border: 2px black solid;
 margin-left: 20px;
@@ -342,12 +355,12 @@ margin-top: 30px;
 background-color: white;
 
 }
-.chambre7 img
+.populaire1 img
 {
 	width: 200px ;
 	height:130px;
 }
-.chambre8
+.populaire2
 {
 border: 2px black solid;
 margin-left: 20px;
@@ -357,12 +370,12 @@ margin-bottom: 70px;
 background-color: white;
 
 }
-.chambre8 img
+.populaire2 img
 {
 	width: 200px ;
 	height:130px;
 }
-.chambre9
+.populaire3
 {
 border: 2px black solid;
 margin-left: 20px;
@@ -372,7 +385,7 @@ margin-bottom: 70px;
 background-color: white;
 
 }
-.chambre9 img
+.populaire3 img
 {
 	width: 200px ;
 	height:130px;
