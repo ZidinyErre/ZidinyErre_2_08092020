@@ -2,17 +2,13 @@
 {
 font-family: 'Raleway';
 }
-body
-{
-	
-	
-}
+
 #page
 {
 	width: 1280;
 	max-width: 1280;
 	margin:auto;
-	border: 2px black solid;
+	
 }
 @font-face
 {
@@ -150,21 +146,26 @@ nav ul
 	 
 	display: flex;
 	list-style-type: none;
-	margin-right: 2px;
+	margin-right: 13px;
+	
+}
+nav ul li
+{
 	
 }
 nav a
 {
  text-decoration: none ;
  font-size: 1.2em;
- 
+ height:20px;
+ padding: 20px 10px 10px 20px;
  color: black;
  
 }
 /* travail le overline*/
 nav a:hover
 {
-	text-decoration: overline;
+	border-top: 2px  #0065FC solid ;
 	color: #0065FC; 
 }
 .d_info 
@@ -217,6 +218,7 @@ nav a:hover
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
+	margin-right: 20px;
 }
 #hotels aside h1
 {
@@ -344,9 +346,10 @@ nav a:hover
 {
 margin-left: 20px;
 height: 125px;
-display: flex;
+width: 500px;
 margin-bottom: 70px;
 margin-top: 30px;
+margin-left: 40px;
 background-color: white;
 padding: 6px 6px 10px 6px;
 border-radius: 15px;
@@ -360,25 +363,28 @@ font-size: 13px;
 }
 .pop h2
 {
-	border: 2px black solid;
-	width: 1300px;
-	height:40px;
+	width:300px;
+	position: relative;
+	left: 205px;
+	bottom: 140px;
 }
 .pop p
 {
-	border: 2px black solid;
-	height: 15px;
+	width:300px;
 	position: relative;
-	top: 120px;
+	left: 205px;
+	bottom: 150px;
 
 }
 .pop i
 {
-	border: 2px black solid;
 	height: 15px;
-	position: ;
+	position: relative;
+	left: 205px;
+	bottom: 150px;
 
 }
+
 
  .fa-star
 {
@@ -393,7 +399,7 @@ font-size: 13px;
  section #lieu
 {
 	display: flex;
-	margin-left: 25px;	
+		
 }
 .lieu1
 {
@@ -402,7 +408,7 @@ font-size: 13px;
 	width: 425px;
 	height:583px;
 	margin-left: 10px;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 .lieu1 img
 {
@@ -424,7 +430,7 @@ font-size: 13px;
 	width: 425px;
 	height:583px;
 	margin-left: 10px;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 .lieu4 img
 {
@@ -444,6 +450,7 @@ font-size: 13px;
 	box-shadow: 0px 5px 20px black;
 	width: 230px;
 	height:235px;
+	margin-right: 20px;
 	
 }
 .lieu2 img
@@ -465,13 +472,14 @@ font-size: 13px;
 	box-shadow: 0px 5px 20px black;
 	width: 230px;
 	height:235px;
-	
+	margin-right: 20px;
 }
 .lieu3 img
 {
 	width:230px;
 	height: 200px;
 	border-radius: 15px 15px 0px 0px;
+
 }
 .lieu3 figcaption
 {
