@@ -252,7 +252,7 @@ nav a:hover
 }
 .chambre
 {
-  font-size: 10px;
+  font-size: 11px;
   padding-left: 15px;
 
 }
@@ -342,32 +342,44 @@ nav a:hover
 
 .pop
 {
-border: 2px black solid;
 margin-left: 20px;
 height: 125px;
 display: flex;
 margin-bottom: 70px;
 margin-top: 30px;
 background-color: white;
-padding-bottom: 8px;
+padding: 6px 6px 10px 6px;
+border-radius: 15px;
+font-size: 13px;
 }
-.populaire1 img
+.pop img
 {
 	width: 200px ;
 	height:130px;
+	border-radius: 15px 0px 0px 15px;
+}
+.pop h2
+{
+	border: 2px black solid;
+	width: 1300px;
+	height:40px;
+}
+.pop p
+{
+	border: 2px black solid;
+	height: 15px;
+	position: relative;
+	top: 120px;
+
+}
+.pop i
+{
+	border: 2px black solid;
+	height: 15px;
+	position: ;
+
 }
 
-.populaire2 img
-{
-	width: 200px ;
-	height:130px;
-}
-
-.populaire3 img
-{
-	width: 200px ;
-	height:130px;
-} 
  .fa-star
 {
 	color: blue;
