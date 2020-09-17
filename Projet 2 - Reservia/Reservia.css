@@ -253,7 +253,33 @@ nav a:hover
 .chambre
 {
   font-size: 10px;
+  padding-left: 15px;
 
+}
+.chambre h2
+{
+	position: relative;
+	left: 5px;
+
+}
+.chambre i
+{
+	position: relative;
+	bottom: 16px ;
+	left: 5px;
+}
+.chambre img
+{
+	border-radius: 15px 15px 0px 0px;
+	width:225px;
+	height: 125px;
+}
+.chambre p
+{
+	padding-left: 10px;
+	position: relative;
+	bottom: 9px;
+	right: 4px;
 }
 .chambre1
 {
@@ -263,12 +289,7 @@ nav a:hover
  background-color: white;
  padding: 3px;
 }
-.chambre1 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width:225px;
-	height: 125px;
-}
+
 .chambre2
 {
  width: 225px;
@@ -278,12 +299,7 @@ nav a:hover
   padding: 3px;
 
 }
-.chambre2 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width: 225px;
-	height: 125px;
-}
+
 .chambre3
 {
  width: 225px;
@@ -293,12 +309,7 @@ nav a:hover
  padding: 3px;
 
 }
-.chambre3 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width: 225px;
-	height: 125px;
-}
+
 .chambre4
 {
  width: 225px;
@@ -308,12 +319,7 @@ nav a:hover
  padding: 3px;
 
 }
-.chambre4 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width: 225px;
-	height: 125px;
-}
+
 .chambre5
 {
  width: 225px;
@@ -323,12 +329,7 @@ nav a:hover
  padding: 3px;
 
 }
-.chambre5 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width: 225px;
-	height: 125px;
-}
+
 .chambre6
 {
  width: 225px;
@@ -338,53 +339,30 @@ nav a:hover
  padding: 3px;
 
 }
-.chambre6 img
-{
-	border-radius: 15px 15px 0px 0px;
-	width: 225px;
-	height: 125px;
-}
-.populaire1
+
+.pop
 {
 border: 2px black solid;
 margin-left: 20px;
 height: 125px;
-display:flex;
+display: flex;
 margin-bottom: 70px;
 margin-top: 30px;
 background-color: white;
-
+padding-bottom: 8px;
 }
 .populaire1 img
 {
 	width: 200px ;
 	height:130px;
 }
-.populaire2
-{
-border: 2px black solid;
-margin-left: 20px;
-height: 125px;
-display:flex;
-margin-bottom: 70px;
-background-color: white;
 
-}
 .populaire2 img
 {
 	width: 200px ;
 	height:130px;
 }
-.populaire3
-{
-border: 2px black solid;
-margin-left: 20px;
-height: 125px;
-display:flex;
-margin-bottom: 70px;
-background-color: white;
 
-}
 .populaire3 img
 {
 	width: 200px ;
