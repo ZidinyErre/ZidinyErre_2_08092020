@@ -406,7 +406,7 @@ font-size: 13px;
 {
 	color: blue;
 }
-#white
+.white
 {
 	color:  grey;
 }
@@ -561,4 +561,22 @@ footer a
 {
 	text-decoration: none;
 	color: black;
+}
+/* Responsives */
+@media all and (max-device-width: 480px)
+{
+
+#page
+{
+	width: auto;
+}
+header figure img
+{
+	width: auto;
+}	
+header nav 
+{
+	display: 
+}
+
 }

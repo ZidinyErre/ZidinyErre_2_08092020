@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="Reservia.css">
 		<script src="https://kit.fontawesome.com/44a04334d0.js" crossorigin="anonymous"></script>
 		<meta charset="utf-8">
+
 	</head>
 
 	<body>
@@ -13,7 +14,7 @@
 				<figure><img src="images/logo/Webp.net-resizeimage.png" alt="logo_du_site"></figure>
 				<h1>Trouvez votre hébergement pour des vacances de rêve</h1><p>En plein centre ville ou en pleine nature</p>
 				<form method="post" >
-					<label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" value="Marseille,France"><button>Rechercher</button>
+					<label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" id="ville" value="Marseille,France"><button>Rechercher</button>
 				</form>
 
 				<p class="filtres">
@@ -35,21 +36,21 @@
 				<div id="hebergements">
 					<h1>Hébergements à Marseille</h1>
 					
-		 				<div class="chambre chambre1"><a href="#"><img src="images/hebergements/4_small/marcusmin.jpg" alt="chambre_d'hôtel"></a>     <h2>Auberge la Cannebière</h2> <p>Nuit à partir de <strong>25€</strong></p> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i>
+		 				<div class="chambre chambre1"><a href="#"><img src="images/hebergements/4_small/marcusmin.jpg" alt="chambre_d'hôtel"></a>     <h2>Auberge la Cannebière</h2> <p>Nuit à partir de <strong>25€</strong></p> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white" ></i>
 		 				</div>
 		
 						<div class=" chambre chambre2"><a href="#"><img src="images/hebergements/4_small/fredmin.jpg" alt="chambre_d'hôtel"></a><h2>Hôtel du port</h2> <p>Nuit à partir de 52€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
 						</div> 
 
-						<div class="chambre chambre3"><a href="#"><img src="images/hebergements/4_small/reisetopiamin.jpg" alt="chambre_d'hôtel"></a>	<h2>Hôtel Les mouettes</h2><p> Nuit à partir de 76€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white" ></i>
+						<div class="chambre chambre3"><a href="#"><img src="images/hebergements/4_small/reisetopiamin.jpg" alt="chambre_d'hôtel"></a>	<h2>Hôtel Les mouettes</h2><p> Nuit à partir de 76€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white"  ></i>
 						</div>
 
 						<div class="chambre chambre4"><a href="#"><img src="images/hebergements/4_small/anniemin.jpg" alt="chambre_d'hôtel"></a>
-							<h2>Hôtel de la mer</h2><p>Nuit à partir de 46€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i><i class="fas fa-star" id="white"></i>
+							<h2>Hôtel de la mer</h2><p>Nuit à partir de 46€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white" ></i><i class="fas fa-star white" ></i>
 						</div>
 
 						<div class="chambre chambre5"><a href="#"><img src="images/hebergements/4_small/nicatemin.jpg" alt="chambre_d'hôtel"></a>
-							<h2>Auberge Le Panier</h2><p>Nuit à partir de <strong>23€</strong></p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i>
+							<h2>Auberge Le Panier</h2><p>Nuit à partir de <strong>23€</strong></p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white" ></i>
 						</div> 
 
 						<div class=" chambre chambre6"><a href="#"><img src="images/hebergements/4_small/febrianmin.jpg" alt="chambre_d'hôtel"></a>
@@ -59,18 +60,18 @@
 						<p id="afficher"><a href="#">Afficher plus</a></p>
 				</div>
 				<aside>
-					<h1>Les plus populaires <a href="#"><i class="fas fa-chart-line"></i>  </h1>
+					<h1>Les plus populaires<a href="#"><i class="fas fa-chart-line"></i></a></h1>
 		
-						<div class="pop populaire1"><img src="images/hebergements/4_small/emilemin.jpg" alt="chambre_d'hôtel"></a>
+						<div class="pop populaire1"><img src="images/hebergements/4_small/emilemin.jpg" alt="chambre_d'hôtel">
 							<h2>Hôtel Le soleil du matin</h2><p>Nuit à partir de 128€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" ></i>
 						</div>
 
 						<div class="pop populaire2"><a href="#"><img src="images/hebergements/4_small/awmin.jpg" alt="chambre_d'hôtel"></a>
-							<h2> Au coeur de l'eau Chambres d'hôtes</h2><p>Nuit à partir de 71€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i>
+							<h2> Au coeur de l'eau Chambres d'hôtes</h2><p>Nuit à partir de 71€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white" ></i>
 						</div>
 
 						<div class="pop populaire3"><a href=""><img src="images/hebergements/4_small/febriansjmin.jpg" alt="chambre_d'hôtel"></a>
-							<h2>Hôtel Tout bleu et Blanc</h2><p>Nuit à partir de 68€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" id="white"></i>
+							<h2>Hôtel Tout bleu et Blanc</h2><p>Nuit à partir de 68€</p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star white" ></i>
 						</div>
 				</aside>
 			</section>
