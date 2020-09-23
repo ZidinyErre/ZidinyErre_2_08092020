@@ -5,9 +5,11 @@
 
 #page
 {
-	width: 1280;
-	max-width: 1280;
+	width: 960px;
+	max-width: 960px;
 	margin:auto;
+	border:2px black solid;
+
 	
 }
 @font-face
@@ -43,9 +45,11 @@ header h1
  	position: relative;
  	top: 20px;
 }
-header  p
+.centre_ville
 {
 	margin-left: 20px;
+	margin-top: 18px;
+	font-size: 1em;
 
 }
 header form
@@ -67,6 +71,7 @@ form i
 form input
 {
 height: 35px;
+border: 2px #F2F2F2 solid;
 }
 
 form button
@@ -174,7 +179,7 @@ nav a
  	text-decoration: none ;
 	font-size: 1.2em;
  	height:20px;
- 	padding: 20px 10px 10px 20px;
+ 	padding: 35px 10px 10px 20px;
  	color: black;
  
 }
@@ -563,7 +568,7 @@ footer a
 	color: black;
 }
 /* Responsives */
-@media all and (max-device-width: 480px)
+@media only screen   and (max-device-width: 480px)
 {
 
 #page
