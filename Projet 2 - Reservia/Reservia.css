@@ -304,8 +304,8 @@ nav a:hover
 }
 .chambre
 {
-	width: 200px;
- 	height: 150px;
+	width: 175px;
+ 	height: 140px;
  	border-radius: 15px;
  	background-color: white;
  	padding: 3px;
@@ -316,28 +316,32 @@ nav a:hover
 .chambre h2
 {
 	position: relative;
-	left: 5px;
+	right: 5px;
+	bottom: 9px;
+	font-size: 1.4em;
 
 }
 .chambre i
 {
 	position: relative;
-	bottom: 16px ;
-	left: 5px;
+	bottom: 28px ;
+	right: 6px;
 }
 .chambre img
 {
 	border-radius: 15px 15px 0px 0px;
-	width:225px;
-	height: 125px;
+	width:180px;
+	height: 80px;
+	position: relative;
+	right: 10.5px;
 }
 .chambre p
 {
-	padding-left: 10px;
 	position: relative;
-	bottom: 9px;
+	bottom: 21px;
 	right: 4px;
 }
+
 
 .pop
 {
@@ -385,11 +389,11 @@ font-size: 13px;
 
  .fa-star
 {
-	color: blue;
+	color: #0065FC;
 }
 .white
 {
-	color:  grey;
+	color:  #F2F2F2;
 }
 
 /*section2*/
