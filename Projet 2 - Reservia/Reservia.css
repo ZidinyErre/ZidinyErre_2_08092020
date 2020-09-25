@@ -304,11 +304,11 @@ nav a:hover
 }
 .chambre
 {
-	width: 175px;
+	width: 173px;
  	height: 140px;
  	border-radius: 15px;
  	background-color: white;
- 	padding: 3px;
+ 	padding: 4px 1px 4px 4px;
   	font-size: 11px;
   	padding-left: 15px;
   
@@ -341,13 +341,22 @@ nav a:hover
 	bottom: 21px;
 	right: 4px;
 }
+.chambre6 img
+{
+	border-radius: 15px 15px 0px 0px;
+	width:180px;
+	height: 80px;
+	position: relative;
+	right: 10.5px;
+	clip-path: inset(0 0 0 0);
 
+}
 
 .pop
 {
-margin-left: 20px;
+margin-left: 15px;
 height: 125px;
-width: 500px;
+width: 250px;
 margin-bottom: 70px;
 margin-top: 30px;
 margin-left: 40px;
@@ -358,7 +367,7 @@ font-size: 13px;
 }
 .pop img
 {
-	width: 200px ;
+	width: 80px ;
 	height:130px;
 	border-radius: 15px 0px 0px 15px;
 }
