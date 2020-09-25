@@ -245,7 +245,7 @@ nav a:hover
 #hotels #hebergements 
 {
 	width: 650px;
-	height: 700px;
+	height: 600px;
 	margin-right: 20px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
@@ -265,7 +265,7 @@ nav a:hover
 #hotels aside
 {
 	width:300px ;
-	height: 700px;
+	height: 600px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
@@ -355,46 +355,59 @@ nav a:hover
 .pop
 {
 margin-left: 15px;
-height: 125px;
-width: 250px;
-margin-bottom: 70px;
-margin-top: 30px;
-margin-left: 40px;
+height: 110px;
+width: 260px;
+margin-bottom: 50px;
+margin-top: 20px;
+margin-left: 20px;
 background-color: white;
-padding: 6px 6px 10px 6px;
+padding: 6px 11px 10px 11px;
 border-radius: 15px;
 font-size: 13px;
 }
 .pop img
 {
-	width: 80px ;
-	height:130px;
+	width: 112px ;
+	height:120px;
 	border-radius: 15px 0px 0px 15px;
+	position: relative;
+	bottom: 3px;
+	right: 8px;
 }
 .pop h2
 {
-	width:300px;
+	font-size: 1.18em;
+	width:150px;
+	height: 40px;
 	position: relative;
-	left: 205px;
-	bottom: 140px;
+	left: 120px;
+	bottom: 135px;
 }
 .pop p
 {
 	width:300px;
 	position: relative;
-	left: 205px;
-	bottom: 150px;
-
+	left:120px;
+	bottom: 152px;
+	margin-top: 6px;
 }
 .pop i
 {
 	height: 15px;
 	position: relative;
-	left: 205px;
-	bottom: 150px;
+	left: 125px;
+	bottom: 125px;
 
 }
-
+.pop1 img
+{
+	width: 112px ;
+	height:118px;
+	border-radius: 15px 0px 0px 15px;
+	position: relative;
+	bottom: 3px;
+	right: 8px;
+}
 
  .fa-star
 {
