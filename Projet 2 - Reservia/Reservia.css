@@ -7,6 +7,7 @@
 {
 	width: 960px;
 	max-width: 960px;
+	height: auto;
 	margin:auto;
 	border:2px black solid;
 
@@ -419,139 +420,58 @@ font-size: 13px;
 }
 
 /*section2*/
- section .lieu
+#activites
 {
 	display: flex;
-		
+	justify-content: space-between;
+	position: relative;
+	bottom: 17px;
 }
-.lieu1
+.lieu
 {
 	border-radius: 15px;
 	box-shadow: 0px 5px 20px black;
-	width: 325px;
-	height:483px;
-	margin-left: 10px;
-	margin-right: 15px;
-}
-.lieu1 img
-{
-	width:320px;
-	height: 450px;
-	border-radius: 15px 15px 0px 0px;
-}
-.lieu1 figcaption
-{
-	padding-left: 15px;
-	padding-top: 5px;
-	font-weight: bold;
-}
-
-.lieu4
-{
-	border-radius: 15px;
-	box-shadow: 0px 5px 20px black;
-	width: 425px;
-	height:583px;
-	margin-left: 10px;
-	margin-right: 15px;
-}
-.lieu4 img
-{
-	width:420px;
-	height: 550px;
-	border-radius: 15px 15px 0px 0px;
-}
-.lieu4 figcaption
-{
-	padding-left: 15px;
-	padding-top: 5px;
-	font-weight: bold;
-}
-.lieu2
-{
-	border-radius: 15px;
-	box-shadow: 0px 5px 20px black;
-	width: 230px;
-	height:235px;
-	margin-right: 20px;
+	width: 200px;
+	height:292px;
+	margin: 10px;
 	
 }
-.lieu2 img
+.lieu img
 {
-	width:230px;
-	height: 200px;
+	width:195px;
+	height: 265px;
 	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	bottom: 16px;
+	right: 36px;
 }
-.lieu2 figcaption
+.lieu figcaption
 {
 	padding-left: 15px;
 	padding-top: 5px;
 	font-weight: bold;
 }
-
-.lieu3
+.petitlieu
 {
 	border-radius: 15px;
 	box-shadow: 0px 5px 20px black;
-	width: 230px;
-	height:235px;
-	margin-right: 20px;
+	width: 130px;
+	height:135px;
+	margin: 10px;
 }
-.lieu3 img
+.petitlieu img
 {
-	width:230px;
-	height: 200px;
+	width:130px;
+	height: 100px;
 	border-radius: 15px 15px 0px 0px;
-
 }
-.lieu3 figcaption
+.petitlieu figcaption
 {
 	padding-left: 15px;
 	padding-top: 5px;
-	font-weight: bold;
+	font-weight: bold;	
 }
 
-.lieu5
-{
-	border-radius: 15px;
-	box-shadow: 0px 5px 20px black;
-	width: 230px;
-	height:235px;
-	
-}
-.lieu5 img
-{
-	width:230px;
-	height: 200px;
-	border-radius: 15px 15px 0px 0px;
-}
-.lieu5 figcaption
-{
-	padding-left: 15px;
-	padding-top: 5px;
-	font-weight: bold;
-}
-
-.lieu6
-{
-	border-radius: 15px;
-	box-shadow: 0px 5px 20px black;
-	width: 230px;
-	height:235px;
-	
-}
-.lieu6 img
-{
-	width:230px;
-	height: 200px;
-	border-radius: 15px 15px 0px 0px;
-}
-.lieu6 figcaption
-{
-	padding-left: 15px;
-	padding-top: 5px;
-	font-weight: bold;
-}
 /*footer*/
 footer
 {
