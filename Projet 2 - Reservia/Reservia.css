@@ -335,6 +335,7 @@ nav a:hover
 	height: 80px;
 	position: relative;
 	right: 10.5px;
+	object-fit: cover;
 }
 .chambre p
 {
@@ -350,7 +351,7 @@ nav a:hover
 	position: relative;
 	right: 10.5px;
 	clip-path: inset(0 0 0 0);
-
+	object-fit: cover;
 }
 
 .pop
@@ -400,7 +401,7 @@ font-size: 13px;
 	bottom: 125px;
 
 }
-.pop1 img
+.populaire1 img
 {
 	width: 112px ;
 	height:118px;
@@ -408,6 +409,18 @@ font-size: 13px;
 	position: relative;
 	bottom: 3px;
 	right: 8px;
+	object-fit: cover;
+
+}
+.populaire2 img
+{
+	object-fit: cover;
+
+}
+.populaire3 img
+{
+		object-fit: cover;
+
 }
 
  .fa-star
@@ -438,38 +451,80 @@ font-size: 13px;
 }
 .lieu img
 {
-	width:195px;
+	width:200px;
 	height: 265px;
 	border-radius: 15px 15px 0px 0px;
 	position: relative;
 	bottom: 16px;
-	right: 36px;
+	right: 40px;
 }
 .lieu figcaption
 {
-	padding-left: 15px;
+	border: 2px black solid;
+	width: 170px;
+	padding-left: 5px;
 	padding-top: 5px;
 	font-weight: bold;
+	font-size: 0.8em;
+	height: 20px;
+	position: relative;
+	bottom: 23px;
+	right:30px;
+
 }
 .petitlieu
 {
 	border-radius: 15px;
 	box-shadow: 0px 5px 20px black;
-	width: 130px;
-	height:135px;
+	width: 200px;
+	height:146px;
 	margin: 10px;
+	position: relative;
+	right: 15px;
 }
 .petitlieu img
 {
-	width:130px;
-	height: 100px;
+	width:200px;
+	height: 110px;
 	border-radius: 15px 15px 0px 0px;
+	position: relative;
+	bottom: 15px;
+	right:40px;
 }
 .petitlieu figcaption
 {
+	border: 2px black solid;
 	padding-left: 15px;
 	padding-top: 5px;
-	font-weight: bold;	
+	font-weight: bold;
+	position: relative;
+	bottom: 23px;
+	right:30px;	
+	width: 170px;
+}
+.lieu1 img
+{
+	object-fit: cover;
+}
+.lieu2 img
+{
+	object-fit: cover;
+
+}
+.lieu3 img
+{
+	object-fit: cover;
+
+}
+.lieu4 img
+{
+	object-fit: cover;
+
+}
+.lieu6 img
+{
+	object-fit: cover;
+
 }
 
 /*footer*/
