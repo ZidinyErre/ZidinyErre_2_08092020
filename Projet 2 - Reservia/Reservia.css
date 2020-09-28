@@ -733,7 +733,7 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media only screen   and (max-device-width: 480px)
+@media only screen and (max-device-width: 480px)
 {
 
 #page
@@ -742,11 +742,17 @@ footer div .condition1
 }
 header figure img
 {
+
 	width: auto;
 }	
-header nav 
+header .d_info1 
 {
-	display: 
+	
 }
+header .d_info2 
+{
+	
+}
+
 
 }
