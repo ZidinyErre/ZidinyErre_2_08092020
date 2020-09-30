@@ -191,8 +191,8 @@ padding: 9px 9px 9px 11px;
 }
 header nav
 {
-	display: flex;
-	align-self: flex-end;
+	background-color: yellow;
+	d
 	position: relative;
 	bottom: 320px;
 }
