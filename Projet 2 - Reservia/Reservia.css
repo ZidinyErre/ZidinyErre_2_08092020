@@ -21,37 +21,68 @@
 /*header*/
 header
 {
-	display: flex;
-	flex-direction: column;
+	display:  
 }
 header figure img
 {
+		background-color: red;
+
 	width: 80px;
 	padding: 8px 8px 8px 8px;
 	margin-left: 20px;
 	margin-right: 20px;
-	position: relative;
-	top: 45px ;
-	right: 45px;
+	
 }
 header h1
 {
+		background-color: blue;
 	padding-top: 20px;
 	padding-bottom: 1px;
 	margin-left: 20px;
 	margin-bottom: 5px;
  	font-size: 18px;
  	font-weight: bold;
- 	position: relative;
- 	top: 20px;
+ 	
+}
+header nav
+{
+
+	background-color: yellow;
+
+}
+nav ul
+{
+	 
+	display: flex;
+	list-style-type: none;
+	margin-right: 13px;
+	
+}
+
+nav a
+{
+ 	text-decoration: none ;
+	font-size: 1.2em;
+ 	height:20px;
+ 	padding: 35px 10px 10px 20px;
+ 	color: black;
+ 
+}
+nav a:hover
+{
+	border-top: 2px  #0065FC solid ;
+	color: #0065FC; 
 }
 .centre_ville
 {
+		background-color: orange;
+
 	margin-left: 20px;
 	margin-top: 18px;
 	font-size: 1em;
 
 }
+/*fin du header*/
 header form
 {
 	width: 500px;
@@ -189,37 +220,9 @@ padding: 9px 9px 9px 11px;
 	margin-top: 3px;
  
 }
-header nav
-{
-	background-color: yellow;
-	d
-	position: relative;
-	bottom: 320px;
-}
-nav ul
-{
-	 
-	display: flex;
-	list-style-type: none;
-	margin-right: 13px;
-	
-}
 
-nav a
-{
- 	text-decoration: none ;
-	font-size: 1.2em;
- 	height:20px;
- 	padding: 35px 10px 10px 20px;
- 	color: black;
- 
-}
 /* travail le overline*/
-nav a:hover
-{
-	border-top: 2px  #0065FC solid ;
-	color: #0065FC; 
-}
+
 .d_info 
 {
 	padding-right: 30px;
