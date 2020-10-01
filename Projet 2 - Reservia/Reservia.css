@@ -19,13 +19,15 @@
 	
 }
 /*header*/
-header
+
+#menu
 {
-	display:  
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 40px;
 }
 header figure img
 {
-		background-color: red;
 
 	width: 80px;
 	padding: 8px 8px 8px 8px;
@@ -33,21 +35,10 @@ header figure img
 	margin-right: 20px;
 	
 }
-header h1
-{
-		background-color: blue;
-	padding-top: 20px;
-	padding-bottom: 1px;
-	margin-left: 20px;
-	margin-bottom: 5px;
- 	font-size: 18px;
- 	font-weight: bold;
- 	
-}
+
 header nav
 {
 
-	background-color: yellow;
 
 }
 nav ul
@@ -64,7 +55,7 @@ nav a
  	text-decoration: none ;
 	font-size: 1.2em;
  	height:20px;
- 	padding: 35px 10px 10px 20px;
+ 	padding: 35px 8px 10px 20px;
  	color: black;
  
 }
@@ -73,17 +64,34 @@ nav a:hover
 	border-top: 2px  #0065FC solid ;
 	color: #0065FC; 
 }
+header h1
+{
+	padding-top: 20px;
+	padding-bottom: 1px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	position: relative;
+ 	
+}
 .centre_ville
 {
-		background-color: orange;
 
 	margin-left: 20px;
 	margin-top: 18px;
 	font-size: 1em;
+	position: relative;
+	bottom: 15px;
 
 }
 /*fin du header*/
-header form
+#hotels
+{
+	display: flex;
+	flex-direction: column;
+}
+.recherche form
 {
 	width: 500px;
 	height: 40px;
@@ -240,10 +248,10 @@ padding: 9px 9px 9px 11px;
 
 
 /*section1*/
-#hotels
+.chambre_x
 {
 	display: flex;
-	
+	flex-direction: row;
 }
 #hotels #hebergements 
 {
