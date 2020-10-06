@@ -750,5 +750,28 @@ footer div .condition1
 	justify-content: flex-start;
 	flex-direction: column;
 }
+.chambre_x
+{
+}
+#hotels #hebergements 
+{
+	width: 100%;
+	margin-right: 2%;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-bottom: 20px;
+
+}
+#hotels aside
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	padding-right: 30px;
+}
 
 }
