@@ -36,11 +36,6 @@ header figure img
 	
 }
 
-header nav
-{
-
-
-}
 nav ul
 {
 	 
@@ -253,13 +248,11 @@ padding: 9px 9px 9px 11px;
 .chambre_x
 {
 	display: flex;
-	flex-direction: row;
 }
 #hotels #hebergements 
 {
-	width: 650px;
-	height: 600px;
-	margin-right: 20px;
+	width: 65%;
+	margin-right: 2%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	display: flex;
@@ -278,8 +271,7 @@ padding: 9px 9px 9px 11px;
 }
 #hotels aside
 {
-	width:300px ;
-	height: 600px;
+	width: 33%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
@@ -746,13 +738,17 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media all  and (max-device-width: 480px)
+@media all  and (max-width: 480px)
 {
 
 #page
 {
 	width: auto;
 }
-
+#menu 
+{
+	justify-content: flex-start;
+	flex-direction: column;
+}
 
 }
