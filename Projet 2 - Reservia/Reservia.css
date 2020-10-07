@@ -2,12 +2,15 @@
 {
 	font-family: 'Raleway';
 }
-
+body
+{
+	width: 100%;
+	margin: auto;
+}
 #page
 {
 	width: 960px;
 	max-width: 960px;
-	height: auto;
 	margin:auto;
 
 	
@@ -19,7 +22,10 @@
 	
 }
 /*header*/
-
+header
+{
+	width: 100%;
+}
 #menu
 {
 	display: flex; 
@@ -80,9 +86,11 @@ header h1
 	bottom: 15px;
 
 }
-/*fin du header*/
+
+/*Début de la section1*/
 #hotels
 {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -437,6 +445,10 @@ font-size: 13px;
 }
 
 /*section2*/
+#section2
+{
+	width: 100%;
+}
 #section2 h1
 {
 	font-size: 1.2em;
@@ -692,6 +704,7 @@ left: 3.5px;
 /*footer*/
 footer
 {
+	width: 100%;
 	background-color: #F2F2F2;
 	display: flex;
 	justify-content: space-around;
