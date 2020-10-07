@@ -673,7 +673,7 @@ left: 3.5px;
 	object-fit: cover;
 	position: relative;
 	top: 0.4px;
-left: 0.25px;
+    left: 0.25px;
 
 
 }
@@ -738,12 +738,15 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media all  and (max-width: 480px)
+@media all  and (max-device-width: 480px)
 {
-
+body
+{
+	width: 100%;
+}
 #page
 {
-	width: auto;
+	width: ;
 }
 #menu 
 {
