@@ -751,43 +751,32 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media all  and (max-device-width: 480px)
+@media all  and (max-width: 480px)
 {
-body
-{
-	width: 100%;
-}
+
 #page
 {
-	width: ;
+	width: 100%;
 }
 #menu 
 {
 	justify-content: flex-start;
 	flex-direction: column;
 }
-.chambre_x
-{
-}
-#hotels #hebergements 
+header
 {
 	width: 100%;
-	margin-right: 2%;
-	background-color: #F2F2F2;
-	border-radius: 15px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content:space-around;
-	margin-bottom: 20px;
-
 }
-#hotels aside
+#hotels
 {
 	width: 100%;
-	background-color: #F2F2F2;
-	border-radius: 15px;
-	padding-right: 30px;
 }
-
+#section2
+{
+	width: 100%;
+}
+footer
+{
+	width: 100%;
+}
 }
