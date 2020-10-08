@@ -751,7 +751,7 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media all  and (max-width: 480px)
+@media all  and (max-device-width: 480px)
 {
 
 #page
