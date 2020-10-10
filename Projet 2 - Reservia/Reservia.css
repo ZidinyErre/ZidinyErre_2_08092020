@@ -2,12 +2,15 @@
 {
 	font-family: 'Raleway';
 }
-
+body
+{
+	width: 100%;
+	margin: auto;
+}
 #page
 {
 	width: 960px;
 	max-width: 960px;
-	height: auto;
 	margin:auto;
 
 	
@@ -21,18 +24,46 @@
 /*header*/
 header
 {
-	display: flex;
-	flex-direction: column;
+	width: 100%;
+}
+#menu
+{
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 40px;
 }
 header figure img
 {
+
 	width: 80px;
 	padding: 8px 8px 8px 8px;
 	margin-left: 20px;
 	margin-right: 20px;
-	position: relative;
-	top: 45px ;
-	right: 45px;
+	
+}
+
+nav ul
+{
+	 
+	display: flex;
+	list-style-type: none;
+	margin-right: 13px;
+	
+}
+
+nav a
+{
+ 	text-decoration: none ;
+	font-size: 1.2em;
+ 	height:20px;
+ 	padding: 35px 8px 10px 20px;
+ 	color: black;
+ 
+}
+nav a:hover
+{
+	border-top: 2px  #0065FC solid ;
+	color: #0065FC; 
 }
 header h1
 {
@@ -43,16 +74,27 @@ header h1
  	font-size: 18px;
  	font-weight: bold;
  	position: relative;
- 	top: 20px;
+ 	
 }
 .centre_ville
 {
+
 	margin-left: 20px;
 	margin-top: 18px;
 	font-size: 1em;
+	position: relative;
+	bottom: 15px;
 
 }
-header form
+
+/*Début de la section1*/
+#hotels
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.recherche form
 {
 	width: 500px;
 	height: 40px;
@@ -67,6 +109,8 @@ form i
 	width: 20px;
 	padding:  11px 8px 9px 13.5px;
 	border-radius: 10px 0px 0px 10px;
+	position: relative;
+	bottom: 0.5px;
 
 }
 
@@ -98,7 +142,7 @@ padding: 9px 9px 9px 11px;
 	margin-top: 25px;
 	height: 40px;
 	padding-top: 4px;
-
+	width: auto;
 }
 .filtres em
 {
@@ -189,37 +233,9 @@ padding: 9px 9px 9px 11px;
 	margin-top: 3px;
  
 }
-header nav
-{
-	display: flex;
-	align-self: flex-end;
-	position: relative;
-	bottom: 320px;
-}
-nav ul
-{
-	 
-	display: flex;
-	list-style-type: none;
-	margin-right: 13px;
-	
-}
 
-nav a
-{
- 	text-decoration: none ;
-	font-size: 1.2em;
- 	height:20px;
- 	padding: 35px 10px 10px 20px;
- 	color: black;
- 
-}
 /* travail le overline*/
-nav a:hover
-{
-	border-top: 2px  #0065FC solid ;
-	color: #0065FC; 
-}
+
 .d_info 
 {
 	padding-right: 30px;
@@ -237,16 +253,14 @@ nav a:hover
 
 
 /*section1*/
-#hotels
+.chambre_x
 {
 	display: flex;
-	
 }
 #hotels #hebergements 
 {
-	width: 650px;
-	height: 600px;
-	margin-right: 20px;
+	width: 65%;
+	margin-right: 2%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	display: flex;
@@ -265,8 +279,7 @@ nav a:hover
 }
 #hotels aside
 {
-	width:300px ;
-	height: 600px;
+	width: 33%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
@@ -432,6 +445,10 @@ font-size: 13px;
 }
 
 /*section2*/
+#section2
+{
+	width: 100%;
+}
 #section2 h1
 {
 	font-size: 1.2em;
@@ -668,7 +685,7 @@ left: 3.5px;
 	object-fit: cover;
 	position: relative;
 	top: 0.4px;
-left: 0.25px;
+    left: 0.25px;
 
 
 }
@@ -687,6 +704,7 @@ left: 3.5px;
 /*footer*/
 footer
 {
+	width: 100%;
 	background-color: #F2F2F2;
 	display: flex;
 	justify-content: space-around;
@@ -733,59 +751,32 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media only screen and (max-device-width: 480px)
+@media screen  and (max-device-width: 480px)
 {
 
 #page
 {
-	width: auto;
+	width: 100%;
 }
-header figure
+#menu 
 {
-	position: relative;
-	bottom: 45px;	
+	justify-content: flex-start;
+	flex-direction: column;
 }
-header figure img
+header
 {
-	width: 100px;
-	
+	width: 100%;
 }
-header .d_info
+#hotels
 {
-	position: relative;
-	bottom: 20px;
-}	
-header .d_info1 
-{
-
-	width: 35px;
-	margin: none;
-	padding-left: 30px;
-	padding-right: 50px;
-	position: relative;
-	left: 145px;
-	font-size: 1.05em;
-	border-bottom: 3px rgb(155, 149, 149) solid;
-
+	width: 100%;
 }
-header .d_info2 
+#section2
 {
-	width: 85px;
-	margin: none;
-	padding-left: 50px;
-	padding-right: 75px;
-	position: relative;
-	left: 130px;
-	font-size: 1.05em;
-	border-bottom: 3px rgb(155, 149, 149) solid;
-
-
+	width: 100%;
 }
-header #inscrire
+footer
 {
-	position: relative;
-	bottom: 90px;
-	left: 20px;
+	width: 100%;
 }
-
 }
