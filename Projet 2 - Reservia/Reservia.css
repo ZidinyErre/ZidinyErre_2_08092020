@@ -97,8 +97,9 @@ header h1
 }
 .recherche form
 {
-	width: 500px;
-	height: 40px;
+	width: 80%;
+    height: auto;
+	
 	margin-left: 20px;
 
 }
@@ -143,7 +144,7 @@ padding: 9px 9px 9px 11px;
 	margin-top: 25px;
 	height: 40px;
 	padding-top: 4px;
-	width: auto;
+	width: 90%;
 }
 .filtres em
 {
@@ -453,15 +454,39 @@ font-size: 13px;
 #section2 h1
 {
 	font-size: 1.2em;
+	margin-bottom: 2px;
 }
 #activites
 {
 	display: flex;
 	justify-content: space-between;
-	position: relative;
-	bottom: 17px;
+	margin-bottom: 15px;
+	margin-top: 2px;
 }
-
+.lieuI
+{
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+}
+.petitlieuI
+{
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+}
+.lieuII
+{
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+}
+.petitlieuII
+{
+	width: 25%;
+	height: auto;
+	margin-left: 2%;
+}
 .lieu img
 {
 	width:200px;
@@ -761,7 +786,7 @@ body
 }
 #page
 {
-	width: auto;
+	width: 100%;
 }
 #menu 
 {
