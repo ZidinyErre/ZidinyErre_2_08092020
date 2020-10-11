@@ -32,6 +32,7 @@ header
 	justify-content: space-between;
 	margin-top: 40px;
 }
+
 header figure img
 {
 
@@ -753,10 +754,14 @@ footer div .condition1
 /* Responsives */
 @media screen  and (max-device-width: 480px)
 {
-
-#page
+body
 {
 	width: 100%;
+	margin: auto;
+}
+#page
+{
+	width: auto;
 }
 #menu 
 {
