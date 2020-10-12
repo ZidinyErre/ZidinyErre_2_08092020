@@ -781,12 +781,11 @@ footer div .condition1
 {
 body
 {
-	width: 100%;
-	margin: auto;
+	
 }
 #page
 {
-	width: 100%;
+	width: auto;
 }
 #menu 
 {
