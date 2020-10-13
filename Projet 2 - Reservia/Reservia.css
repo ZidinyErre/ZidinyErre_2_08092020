@@ -13,7 +13,7 @@ body
 	max-width: 960px;
 	margin:auto;
 
-	
+	background-color: blue;
 }
 @font-face
 {
@@ -258,6 +258,7 @@ padding: 9px 9px 9px 11px;
 .chambre_x
 {
 	display: flex;
+	background-color: orange;
 }
 #hotels #hebergements 
 {
@@ -270,6 +271,7 @@ padding: 9px 9px 9px 11px;
 	flex-wrap: wrap;
 	justify-content:space-around;
 	margin-bottom: 20px;
+	background-color: yellow;
 
 }
 #hotels #hebergements h1
@@ -285,6 +287,7 @@ padding: 9px 9px 9px 11px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding-right: 30px;
+	background-color: red;
 }
 #hotels aside h1
 {
@@ -450,6 +453,7 @@ font-size: 13px;
 #section2
 {
 	width: 100%;
+	background-color: green;
 }
 #section2 h1
 {
@@ -777,7 +781,7 @@ footer div .condition1
 	right: 80px;
 }
 /* Responsives */
-@media screen  and (max-device-width: 480px)
+@media screen  and (max-width: 480px)
 {
 body
 {
@@ -795,6 +799,10 @@ body
 header
 {
 	width: 100%;
+}
+.chambre_x
+{
+	flex-direction: column;
 }
 #hotels
 {
