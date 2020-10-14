@@ -32,7 +32,10 @@ header
 	justify-content: space-between;
 	margin-top: 40px;
 }
-
+header figure 
+{
+	margin-left: 0px;
+}
 header figure img
 {
 
@@ -295,7 +298,8 @@ padding: 9px 9px 9px 11px;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	
+   margin-bottom: 5px;
+
 }
 .fa-chart-line
 {
@@ -418,6 +422,10 @@ font-size: 13px;
 	bottom: 125px;
 
 }
+.populaire1
+{
+	margin-top: 20px;
+}
 .populaire1 img
 {
 	width: 112px ;
@@ -439,7 +447,10 @@ font-size: 13px;
 		object-fit: cover;
 
 }
-
+.populaire3
+{
+	margin-bottom: 20px;
+}
  .fa-star
 {
 	color: #0065FC;
@@ -800,6 +811,16 @@ header
 {
 	width: 100%;
 }
+#inscrire
+{
+position: relative;
+    bottom: 70px;
+    right: 67px;
+}
+.filtres 
+{
+	width: 100%;
+}
 .chambre_x
 {
 	flex-direction: column-reverse;
@@ -807,6 +828,10 @@ header
 #hotels
 {
 	width: 100%;
+}
+#hotels #hebergements
+{
+	background-color: initial;
 }
 #hotels aside
 {
