@@ -802,18 +802,28 @@ header
 }
 .chambre_x
 {
-	flex-direction: column;
+	flex-direction: column-reverse;
 }
 #hotels
 {
 	width: 100%;
 }
+#hotels aside
+{
+	width:100%;
+}
 #section2
 {
 	width: 100%;
 }
+#activites
+{
+	flex-direction: column;
+}
 footer
 {
+	flex-direction: column;
 	width: 100%;
+	text-align: center;
 }
 }
