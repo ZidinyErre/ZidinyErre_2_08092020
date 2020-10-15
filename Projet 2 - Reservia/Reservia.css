@@ -846,7 +846,15 @@ flex-direction: column;
 {
 	background-color: initial;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
 }
+.chambre
+{
+margin-bottom: 50px;
+}
+
 #hotels aside
 {
 	width:100%;
@@ -858,6 +866,8 @@ flex-direction: column;
 #activites
 {
 	flex-direction: column;
+	align-items:  center;
+
 }
 footer
 {
