@@ -143,8 +143,10 @@ padding: 9px 9px 9px 11px;
 }
 .filtres 
 {
+	margin-left: 10px;
 	margin-top: 25px;
 	padding-top: 4px;
+	width: 75%;
 	display: flex;
 	justify-content: space-around;
 
@@ -168,13 +170,21 @@ padding: 9px 9px 9px 11px;
 	border-radius: 25px;
 	padding: 8px;
 	font-weight: bold;
-	width: 18%;
-	height: 5%;
+	width: 100px;
+	height: 20px;
 
 }
 .petitf1
 {
 	padding-right: 15px;
+	width: 120px;
+	height: 20px;
+}
+.petitf1 p
+{
+	position: relative;
+	bottom: 57px;
+	left: 35px;
 }
 .fa-money-bill-wave
 {
@@ -183,6 +193,7 @@ padding: 9px 9px 9px 11px;
 	border-radius: 20px;
 	color: #0065FC;
 	position: relative;
+	bottom: 10px;
 	right: 10px;
 	font-size: 0.9em;
 }
@@ -782,19 +793,16 @@ footer div .condition1
 }
 .apropos
 {
-	position: relative;
-	right: 50px;
+	
 }
 
 .nos
 {
-	position: relative;
-	right: 75px;
+	
 }
 .assistance
 {
-	position: relative;
-	right: 80px;
+	
 }
 /* Responsives */
 @media screen  and (max-width: 480px)
@@ -832,11 +840,12 @@ flex-direction: column;
 }
 #hotels
 {
-	width: 100%;
+	width: 
 }
 #hotels #hebergements
 {
 	background-color: initial;
+	width: 100%;
 }
 #hotels aside
 {
@@ -854,6 +863,22 @@ footer
 {
 	flex-direction: column;
 	width: 100%;
-	text-align: center;
+justify-content: flex-start;
 }
+.apropos
+{
+	margin-left: 10%;
+}
+
+.nos
+{
+	margin-left: 10%;
+
+}
+.assistance
+{
+	margin-left: 10%;
+
+}
+
 }
