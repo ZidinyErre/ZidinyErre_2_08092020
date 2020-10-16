@@ -341,8 +341,8 @@ padding: 9px 9px 9px 11px;
 }
 .chambre
 {
-	width: 173px;
- 	height: 140px;
+	width: 29%;
+ 	height: 29%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -367,8 +367,8 @@ padding: 9px 9px 9px 11px;
 .chambre img
 {
 	border-radius: 15px 15px 0px 0px;
-	width:180px;
-	height: 80px;
+	width: 104%;
+    height: 56%;
 	position: relative;
 	right: 10.5px;
 	object-fit: cover;
@@ -830,6 +830,10 @@ position: relative;
     bottom: 70px;
     right: 67px;
 }
+form button
+{
+	
+}
 .filtres 
 {
 flex-direction: column; 
@@ -850,9 +854,27 @@ flex-direction: column;
 	flex-direction: column;
 	align-items:  center;
 }
+
 .chambre
 {
-margin-bottom: 50px;
+	width: 70%;
+ 	height: 29%;
+ 	border-radius: 15px;
+ 	background-color: white;
+ 	padding: 4px 1px 4px 4px;
+  	font-size: 11px;
+  	padding-left: 15px;
+  margin-bottom: 50px;
+
+}
+.chambre img
+{
+	border-radius: 15px 15px 0px 0px;
+	width: 104%;
+    height: 56%;
+	position: relative;
+	right: 10.5px;
+	object-fit: cover;
 }
 
 #hotels aside
