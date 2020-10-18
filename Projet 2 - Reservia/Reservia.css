@@ -146,9 +146,9 @@ padding: 9px 9px 9px 11px;
 	margin-left: 10px;
 	margin-top: 25px;
 	padding-top: 4px;
-	width: 75%;
+	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 
 }
 .filtres h3
@@ -170,20 +170,19 @@ padding: 9px 9px 9px 11px;
 	border-radius: 25px;
 	padding: 8px;
 	font-weight: bold;
-	width: 100px;
-	height: 20px;
-
+	margin-right: 8px;
+	
 }
 .petitf1
 {
 	padding-right: 15px;
-	width: 120px;
+	width: 130px;
 	height: 20px;
 }
 .petitf1 p
 {
 	position: relative;
-	bottom: 57px;
+	bottom: 56px;
 	left: 35px;
 }
 .fa-money-bill-wave
@@ -200,6 +199,16 @@ padding: 9px 9px 9px 11px;
 .petitf2
 {
 	padding-right: 20px;
+	width: 100px;
+	height: 20px;
+
+}
+.petitf2 p
+{
+position: relative;
+	bottom: 56px;
+	left: 35px;
+
 }
 .fa-child
 {
@@ -208,11 +217,21 @@ padding: 9px 9px 9px 11px;
 	border-radius: 20px;
 	color: #0065FC;
 	position: relative;
-	right: 9px;
+	bottom: 10px;
+	right: 10px;
 }
 .petitf3
 {
 	padding-right: 15px;
+	width: 125px;
+	height: 20px;
+}
+.petitf3 p
+{
+position: relative;
+	bottom: 56px;
+	left: 35px;
+
 }
 .fa-heart
 {
@@ -221,21 +240,32 @@ padding: 9px 9px 9px 11px;
 	border-radius: 20px;
 	color: #0065FC; 
 	position: relative;
-	right: 9px; 
-	top:2px; 
+	 bottom: 10px;
+	right: 10px;
 }
 .petitf4
 {
 	padding-right: 15px;
+	width: 185px;
+	height: 20px;
+
+}
+.petitf4 p
+{
+position: relative;
+	bottom: 54px;
+	left: 35px;
+
 }
 .fa-dog
 {
 	background-color: #DEEBFF;
-	padding: 10px 10px 10px 10px ;
+	padding: 10px 10px 12px 10px ;
 	border-radius: 20px;
 	color: #0065FC;
 	position: relative;
-	right: 9px;
+	bottom: 9.5px;
+	right: 10px;
 }
 .rappel .fa-info
 {
@@ -519,8 +549,8 @@ font-size: 13px;
 }
 .lieu img
 {
-	width:200px;
-	height: 255px;
+	width: 100%;
+    height: 89%;
 	border-radius: 15px 15px 0px 0px;
 	position: relative;
 	bottom: 16px;
@@ -565,8 +595,9 @@ font-size: 13px;
 {  
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 200px;
-	height:292px;
+	width: 84%;
+    height: 92%;
+	
 	margin: 10px 30px 10px 10px;
 	position: relative;
 	top: 3.5px;
@@ -662,8 +693,8 @@ font-size: 13px;
 
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 200px;
-	height:292px;
+	width: 84%;
+    height: 92%;
 	margin: 10px;
 	position: relative;
 	top: 3.5px;
@@ -673,8 +704,8 @@ font-size: 13px;
 }
 .lieu4 img
 {
-	width:200px;
-	height: 255px;
+	width: 100%;
+    height: 89%;
 	object-fit: cover;
 	position: relative;
 	left: 0.2px;
@@ -836,7 +867,16 @@ form button
 }
 .filtres 
 {
-flex-direction: column; 
+flex-direction: column;
+width: 100%; 
+}
+.petitf
+{
+	margin-bottom: 15px;
+}
+.petitf2
+{
+	align-self: 
 }
 .chambre_x
 {
