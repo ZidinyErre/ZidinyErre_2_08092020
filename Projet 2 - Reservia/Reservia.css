@@ -371,18 +371,17 @@ position: relative;
 }
 .chambre
 {
-	width: 29%;
+	width: 31%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
   	font-size: 11px;
-  	padding-left: 15px;
-  
+    margin-bottom: 3%;
+
 }
 .chambre h2
 {
 	position: relative;
-	right: 5px;
 	bottom: 9px;
 	font-size: 1.4em;
 
@@ -391,22 +390,22 @@ position: relative;
 {
 	position: relative;
 	bottom: 28px ;
-	right: 6px;
 }
 .chambre img
 {
 	border-radius: 15px 15px 0px 0px;
-	width: 104%;
-    height: 56%;
-	position: relative;
-	right: 10.5px;
+	width: 100%;
+	
 	object-fit: cover;
+}
+.image
+{
+overflow: hidden;
 }
 .chambre p
 {
 	position: relative;
 	bottom: 21px;
-	right: 4px;
 }
 .chambre6 img
 {
