@@ -371,7 +371,7 @@ position: relative;
 }
 .chambre
 {
-	width: 31.5%;
+	width: 30%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -407,6 +407,39 @@ overflow: hidden;
 {
 	position: relative;
 	bottom: 21px;
+}
+.chambre4
+{
+	width: 30%;
+ 	height: fit-content;
+ 	border-radius: 15px;
+ 	background-color: white;
+ 	padding: 4px 1px 4px 4px;
+  	font-size: 11px;
+    margin-bottom: 3%;
+
+}
+.chambre5
+{
+	width: 30%;
+	height: fit-content; 
+ 	border-radius: 15px;
+ 	background-color: white;
+ 	padding: 4px 1px 4px 4px;
+  	font-size: 11px;
+    margin-bottom: 3%;
+
+}
+.chambre6
+{
+	width: 30%;
+	height: 35.4%;
+ 	border-radius: 15px;
+ 	background-color: white;
+ 	padding: 4px 1px 4px 4px;
+  	font-size: 11px;
+    margin-bottom: 3%;
+
 }
 .chambre4 img
 {
@@ -1037,49 +1070,7 @@ width: 100%;
     text-align: center;
     margin: auto;
 }
-.lieuI {
-    width: 100%;
-    align-items:  center;
-    text-align: center;
-    margin: auto;
-}
 
-
-}
-.lieu1
-{
-	width: 100%;
-} 
-.lieu1 img 
-{
-	width: 100%;
-    height: 89%;
-}
-.lieu2
-{
-	width: 300%;
-	height: 30%;
-} 
-.lieu3
-{
-	width: 300%;
-	height: 30%;
-} 
-.lieu4
-{
-	width: 300%;
-	height: 30%;
-} 
-.lieu5
-{
-	width: 300%;
-	height: 30%;
-} 
-.lieu6
-{
-	width: 300%;
-	height: 30%;
-} 
 footer
 {
 	flex-direction: column;
