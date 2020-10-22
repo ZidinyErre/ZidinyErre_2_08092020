@@ -932,7 +932,14 @@ width: 100%;
 	text-align: center;
     margin: auto;
 }
+#hotels #hebergements h1 
+{
+    font-size: 1.5em;
+    height: 20px;
+    width: 100%;
+      padding-left: 0px;
 
+}
 .chambre
 {
 	width: 70%;
@@ -1003,8 +1010,22 @@ width: 100%;
 }
 #hotels aside
 {
-	width:100%;
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
+#hotels aside h1 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
 #section2
 {
 	width: 100%;
@@ -1013,17 +1034,26 @@ width: 100%;
 {
 	flex-direction: column;
 	align-items:  center;
+    text-align: center;
+    margin: auto;
+}
+.lieuI {
+    width: 100%;
+    align-items:  center;
+    text-align: center;
+    margin: auto;
+}
+
 
 }
 .lieu1
 {
-	width: 300%;
-	height: 30%;
+	width: 100%;
 } 
 .lieu1 img 
 {
-	width: ;
-	height: ;
+	width: 100%;
+    height: 89%;
 }
 .lieu2
 {
@@ -1085,7 +1115,7 @@ justify-content: flex-start;
 }
 #hotels aside
 {
-	display: 
+	display: ;
 	flex-direction: ;
 }
 }
