@@ -331,12 +331,15 @@ position: relative;
 }
 #hotels aside
 {
+	
 	width: 35%;
     height: 645px;
     background-color: #F2F2F2;
     border-radius: 15px;
     background-color: red;
-	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #hotels aside h1
 {
@@ -521,9 +524,8 @@ border-radius: 15px 15px 0px 0px;
 {
     height: 20%;
     width: 80%;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
     background-color: white;
     border-radius: 15px;
     font-size: 13px;
@@ -537,49 +539,74 @@ border-radius: 15px 15px 0px 0px;
 }
 .populaire1 img
 {
-	width: 44%;
-    height: 100%;
+	width: 42%;
+    height: 92%;
     border-radius: 15px 0px 0px 15px;
-    /* position: relative; */
-    /* bottom: 3px; */
-    /* right: 8px; */
+    padding: 2%;
     object-fit: cover;
 }
-	
+
+.populaire1 h2
+{
+	font-size: 1.18em;
+	width:150px;
+	height: 40px;
+	position: relative;
+	left: 120px;
+	bottom: 135px;
+}
+.populaire1 p
+{
+	width:300px;
+	position: relative;
+	left:120px;
+	bottom: 152px;
+	margin-top: 6px;
+}
+.populaire1 i
+{
+	height: 15px;
+	position: relative;
+	left: 125px;
+	bottom: 125px;
+
+}
+
 .populaire2
 {
-	margin-left: 15px;
-    height: 110px;
-    width: 260px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+	height: 20%;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
     background-color: white;
-    padding: 6px 11px 10px 11px;
     border-radius: 15px;
     font-size: 13px;
 }
 .populaire2 img
 {
+	width: 42%;
+    height: 92%;
+    border-radius: 15px 0px 0px 15px;
+    padding: 2%;
 	object-fit: cover;
 
 }
 .populaire3 img
 {
-		object-fit: cover;
+	width: 42%;
+    height: 92%;
+    border-radius: 15px 0px 0px 15px;
+    padding: 2%;
+	object-fit: cover;
 
 }
 .populaire3
 {
-	margin-bottom: 20px;
-	margin-left: 15px;
-    height: 110px;
-    width: 260px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+	height: 20%;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
     background-color: white;
-    padding: 6px 11px 10px 11px;
     border-radius: 15px;
     font-size: 13px;
 }
@@ -1081,6 +1108,15 @@ width: 100%;
     margin-left: 8%;
     margin-right: 8%;
 }
+.populaire1 h2 
+{
+    font-size: 1.18em;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    bottom: 135px;
+    }
 .populaire1
 {
 
@@ -1130,6 +1166,9 @@ justify-content: flex-start;
 }
 
 }
+
+
+
 
 @media screen  and (max-width: 768px)
 {
