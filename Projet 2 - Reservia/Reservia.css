@@ -4,7 +4,7 @@
 }
 body
 {
-	width: 100%;
+	width: fit-content;
 	margin: auto;
 }
 #page
@@ -978,7 +978,7 @@ header
 }
 #inscrire
 {
-position: relative;
+	position: relative;
     bottom: 70px;
     right: 67px;
 }
@@ -1114,20 +1114,110 @@ width: 100%;
     width: 150px;
     height: 40px;
     position: relative;
-    left: 160px;
-    bottom: 135px;
-    }
+    left: 170px;
+    bottom: 150px;
+    
+ }
+ .populaire1 p 
+ {
+ 	width: 300px;
+    position: relative;
+    left: 170px;
+    bottom: 162px;
+    margin: 0;
+
+}
+.populaire1 i
+ {
+    height: 15px;
+    position: relative;
+    left: 170px;
+    bottom: 105px;
+    
+}
 .populaire1
 {
+	height: 25%;
+    width: 76%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.populaire2 h2 
+{
+    font-size: 1.18em;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+    
+ }
+ .populaire2 p 
+ {
+ 	width: 300px;
+    position: relative;
+    left: 170px;
+    bottom: 162px;
+    margin: 0;
 
+}
+.populaire2 i
+ {
+    height: 15px;
+    position: relative;
+    left: 170px;
+    bottom: 105px;
+    
 }
 .populaire2
 {
+	height: 25%;
+    width: 76%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.populaire3 h2 
+{
+    font-size: 1.18em;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+    
+ }
+ .populaire3 p 
+ {
+ 	width: 300px;
+    position: relative;
+    left: 170px;
+    bottom: 162px;
+    margin: 0;
 
+}
+.populaire3 i
+ {
+    height: 15px;
+    position: relative;
+    left: 170px;
+    bottom: 105px;
+    
 }
 .populaire3
 {
-
+	height: 25%;
+    width: 76%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 13px;
 }
 
 
