@@ -630,7 +630,7 @@ border-radius: 15px 15px 0px 0px;
 	font-size: 1.2em;
 	margin-bottom: 2px;
 }
-#activites
+ #activites
 {
 	display: flex;
 	justify-content: space-around;
@@ -891,13 +891,14 @@ left: 3.5px;
 }
 
 /*footer*/
-footer
+.basdepage
 {
 	width: 100%;
 	background-color: #F2F2F2;
 	display: flex;
 	justify-content: space-around;
-	
+	flex-direction: row;
+
 }
 footer div
 {
@@ -924,18 +925,18 @@ footer div .condition1
 	position: relative;
 	bottom: 23px;
 }
-.apropos
+footer .apropos
 {
-	
+	margin-left: 1%;
 }
 
-.nos
+footer .nos
 {
-	
+	margin-left: 1%;
 }
-.assistance
+footer .assistance
 {
-	
+	margin-left: 1%;
 }
 
 /* Responsives */
@@ -1223,7 +1224,10 @@ width: 100%;
 #activites
 {
 	flex-direction: column;
-	
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 2px;
 }
 .lieu1
 {
@@ -1317,9 +1321,10 @@ width: 339px;
 }
 footer
 {
-	flex-direction: column;
 	width: 100%;
 justify-content: flex-start;
+	flex-direction: column;
+
 }
 .apropos
 {
