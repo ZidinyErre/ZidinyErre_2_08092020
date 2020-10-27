@@ -965,6 +965,10 @@ header
     bottom: 70px;
     right: 67px;
 }
+nav 
+{
+    border-bottom: 3px #F2F2F2 solid;
+}
 form button
 {
 	
