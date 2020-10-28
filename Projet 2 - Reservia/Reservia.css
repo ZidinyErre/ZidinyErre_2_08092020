@@ -9,8 +9,7 @@ body
 }
 #page
 {
-	width: 960px;
-	max-width: 960px;
+	width: 1300px;
 	margin:auto;
 
 	background-color: blue;
@@ -375,7 +374,7 @@ position: relative;
 }
 .chambre
 {
-	width: 30%;
+	width: 31%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -383,18 +382,20 @@ position: relative;
     margin-bottom: 3%;
 
 }
-.chambre h2
+.infochambre
 {
-	position: relative;
-	bottom: 9px;    
+   margin-left: 6px;
+
+}
+.chambre h2
+{   
 
 	font-size: 1.4em;
 
 }
 .chambre i
 {
-	position: relative;
-	bottom: 28px ;
+	
 }
 .chambre img
 {
@@ -406,16 +407,17 @@ position: relative;
 .image
 {
 overflow: hidden;
+margin: 1.5px;
+
 }
 .chambre p
 {
-	position: relative;
-	bottom: 21px;
+	
 }
 .chambre4
 {
-	width: 30%;
- 	height: fit-content;
+	width: 30.7%;
+	height: 35%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -425,8 +427,8 @@ overflow: hidden;
 }
 .chambre5
 {
-	width: 30%;
-	height: fit-content; 
+	width: 30.7%;
+	height: 35%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -436,8 +438,8 @@ overflow: hidden;
 }
 .chambre6
 {
-	width: 30%;
-	height: 35.4%;
+	width: 30.7%;
+	height: 35%;
  	border-radius: 15px;
  	background-color: white;
  	padding: 4px 1px 4px 4px;
@@ -464,28 +466,29 @@ overflow: hidden;
 border-radius: 15px 15px 0px 0px;
     width: 99%;
     height: 192px;
-    /* position: relative; */
-    /* right: 10.5px; */
+    
     clip-path: inset(0 0 27% 0);
     object-fit: cover;
 }
+.image6
+{
+	overflow: hidden;
+	height: 60%;
+	margin: 1.5px;
+}
 .chambre6 h2
 {
-	position: relative;
-   bottom: 59px;
 
 	font-size: 1.4em;
 
 }
 .chambre6 p
 {
-	position: relative;
-	bottom: 71px;
+	
 }
 .chambre6 i
 {
-	position: relative;
-	bottom: 78px ;
+	
 }
 
 .pop img
@@ -891,7 +894,7 @@ left: 3.5px;
 }
 
 /*footer*/
-.basdepage
+footer
 {
 	width: 100%;
 	background-color: #F2F2F2;
@@ -905,7 +908,7 @@ footer div
 	display: flex;
 	flex-direction: column;
 	font-size: 0.65em;
-	
+	width: 30%;
 }
 footer a
 {
@@ -927,6 +930,7 @@ footer div .condition1
 }
 footer .apropos
 {
+
 	margin-left: 1%;
 }
 
@@ -1329,6 +1333,13 @@ footer
 justify-content: flex-start;
 	flex-direction: column;
 
+}
+footer div
+{
+	display: flex;
+	flex-direction: column;
+	font-size: 0.65em;
+	width: 100%;
 }
 .apropos
 {
