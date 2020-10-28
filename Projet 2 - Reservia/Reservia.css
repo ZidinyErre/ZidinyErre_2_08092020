@@ -332,7 +332,7 @@ position: relative;
 {
 	
 	width: 35%;
-    height: 705px;
+    height: 715px;
     background-color: #F2F2F2;
     border-radius: 15px;
     background-color: red;
@@ -657,7 +657,6 @@ border-radius: 15px 15px 0px 0px;
 .petitlieuI
 {
 	width: 25%;
-	margin-left: 2%;
 }
 .lieuII
 {
@@ -674,9 +673,7 @@ border-radius: 15px 15px 0px 0px;
 	width: 100%;
     height: 89%;
 	border-radius: 15px 15px 0px 0px;
-	position: relative;
-	bottom: 16px;
-	right: 40px;
+	
 }
 .lieu figcaption
 {
@@ -698,9 +695,7 @@ border-radius: 15px 15px 0px 0px;
 	width:200px;
 	height: 110px;
 	border-radius: 15px 15px 0px 0px;
-	position: relative;
-	bottom: 15px;
-	right:40px;
+	
 }
 .petitlieu figcaption
 {
@@ -717,8 +712,8 @@ border-radius: 15px 15px 0px 0px;
 {  
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 190px;
-    height: 320px;
+	width: 238px;
+    height: 400px;
 	margin: 10px 30px 10px 10px;
 	
 	
@@ -748,19 +743,18 @@ border-radius: 15px 15px 0px 0px;
 
     border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 223px;
-    height: 147px;
-    margin: 10px 10px 10px 5px ;
+	width: 285px;
+    height: 180px;
+    margin: 10px 10px 78px 5px ;
 		
 }
 .lieu2 img
 {
+
+    height: 78%;
 	width: 100%;
-    height: 110px;
 	object-fit: cover;
-	position: relative;
-	top: 0.4px;
-	left:0.18px;
+	
 }
 .lieu2 figcaption
 {
@@ -778,8 +772,8 @@ border-radius: 15px 15px 0px 0px;
 
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 216px;
-	height: 124px;
+	width: 286px;
+    height: 141px;
     margin: 47px 10px 10px 5px;
     
 
@@ -789,12 +783,9 @@ border-radius: 15px 15px 0px 0px;
 {
 	width: 99.5%;
     height: 99%;
-
 	object-fit: cover;
 	clip-path: inset(0 0 26% 0);
-	position: relative;
-	top: 0.5px;
-	left: 0.2px;
+	
 	}
 .lieu3 figcaption
 {
@@ -813,8 +804,8 @@ border-radius: 15px 15px 0px 0px;
 
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 190px;
-    height: 320px;
+	width: 238px;
+    height: 400px;
 	margin: 10px;
 	
 	
@@ -824,9 +815,7 @@ border-radius: 15px 15px 0px 0px;
 	width: 100%;
     height: 89%;
 	object-fit: cover;
-	position: relative;
-	left: 0.2px;
-    top: 0.2px;
+	
 }
 .lieu4 figcaption
 {
@@ -844,17 +833,14 @@ right: 2px;
 
 	border-radius: 15px;
 	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 200px;
-    height: 148px;
+    width: 270px;
+    height: 189px;
 	margin: 10px;
 	
 }
 .lieu5 img
 {
     height: 75%;
-    position: relative;
-    top: 0.4px;
-    left: 0.25px;
     width: 100%;
 	
 }
@@ -873,21 +859,19 @@ left: 3.5px;
 
 .lieu6
 {	
-
 	border-radius: 15px;
-	box-shadow: 0px 5px 5px #F2F2F2;
-	width: 202px;
-    height: 147px;
-	margin: 23px 10px 10px 10px;	
+    box-shadow: 0px 5px 5px #F2F2F2;
+    width: 277px;
+    height: 179px;
+    margin: 33px 10px 10px 10px;
 }
+	
 .lieu6 img
 {
-	height: 110px;
-	object-fit: cover;
-	position: relative;
-	top: 0.4px;
-    left: 0.25px;
-
+	height: 75%;
+    width: 100%;
+    object-fit: cover;
+   
 
 }
 .lieu6 figcaption
