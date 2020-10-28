@@ -321,7 +321,7 @@ position: relative;
 	background-color: yellow;
 
 }
-#hotels #hebergements h1
+#hotels #hebergements h2
 {
 	font-size: 1.5em;
 	height: 20px;
@@ -332,7 +332,7 @@ position: relative;
 {
 	
 	width: 35%;
-    height: 645px;
+    height: 705px;
     background-color: #F2F2F2;
     border-radius: 15px;
     background-color: red;
@@ -340,13 +340,15 @@ position: relative;
     flex-direction: column;
     justify-content: space-around;
 }
-#hotels aside h1
+#hotels aside h2
 {
 	
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
    margin-bottom: 5px;
+   font-size: 1.5em;
+
 
 }
 .fa-chart-line
@@ -387,7 +389,7 @@ position: relative;
    margin-left: 6px;
 
 }
-.chambre h2
+.chambre h3
 {   
 
 	font-size: 1.4em;
@@ -476,7 +478,7 @@ border-radius: 15px 15px 0px 0px;
 	height: 60%;
 	margin: 1.5px;
 }
-.chambre6 h2
+.chambre6 h3
 {
 
 	font-size: 1.4em;
@@ -498,120 +500,127 @@ border-radius: 15px 15px 0px 0px;
 	border-radius: 15px 0px 0px 15px;
 	
 }
-.pop h2
+.pop h3
 {
 	font-size: 1.18em;
 	width:150px;
 	height: 40px;
-	position: relative;
-	left: 120px;
-	bottom: 135px;
+	
 }
 .pop p
 {
 	width:300px;
-	position: relative;
-	left:120px;
-	bottom: 152px;
-	margin-top: 6px;
+	margin-bottom: 54px;
+
 }
+
 .pop i
 {
 	height: 15px;
-	position: relative;
-	left: 125px;
-	bottom: 125px;
+	
 
 }
-.populaire1
-{
-    height: 20%;
-    width: 80%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 15px;
-    font-size: 13px;
-	
-}
+
 .cliché
 {
 	overflow: hidden;
 	height: 100%;
     width: 100%
 }
+.populaire1
+{
+    height: 22%;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 13px;
+	display: flex;
+    padding: 3px 3px 5px 3px;
+
+}
+.cliché1
+{
+	overflow: hidden;
+    height: 100%;
+    width: 137px;
+	
+}
 .populaire1 img
 {
-	width: 42%;
-    height: 92%;
+	width: 100%;
+    height: 100%;
     border-radius: 15px 0px 0px 15px;
     padding: 2%;
     object-fit: cover;
 }
+.info
+{
+	width: auto;
+    margin-left: 30px;
+}
 
-.populaire1 h2
-{
-	font-size: 1.18em;
-	width:150px;
-	height: 40px;
-	position: relative;
-	left: 120px;
-	bottom: 135px;
-}
-.populaire1 p
-{
-	width:300px;
-	position: relative;
-	left:120px;
-	bottom: 152px;
-	margin-top: 6px;
-}
-.populaire1 i
-{
-	height: 15px;
-	position: relative;
-	left: 125px;
-	bottom: 125px;
 
-}
+
 
 .populaire2
 {
-	height: 20%;
+	height: 22%;
     width: 80%;
     margin-bottom: 5%;
     margin-left: 10%;
     background-color: white;
     border-radius: 15px;
     font-size: 13px;
+    padding: 3px 3px 5px 3px;
+    display: flex;
+
+}
+.cliché2
+{
+	overflow: hidden;
+    height: 100%;
+    width: 137px;
+	
 }
 .populaire2 img
 {
-	width: 42%;
-    height: 92%;
+	width: 100%;
+    height: 100%;
     border-radius: 15px 0px 0px 15px;
     padding: 2%;
 	object-fit: cover;
 
 }
-.populaire3 img
-{
-	width: 42%;
-    height: 92%;
-    border-radius: 15px 0px 0px 15px;
-    padding: 2%;
-	object-fit: cover;
 
-}
 .populaire3
 {
-	height: 20%;
+	height: 22%;
     width: 80%;
     margin-bottom: 5%;
     margin-left: 10%;
     background-color: white;
     border-radius: 15px;
     font-size: 13px;
+    padding: 3px 3px 5px 3px;
+    display: flex;
+}
+.cliché3
+{
+	overflow: hidden;
+    height: 100%;
+    width: 137px;
+	
+}
+.populaire3 img
+{
+	width: 100%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+    padding: 2%;
+	object-fit: cover;
+
 }
  .fa-star
 {
@@ -628,7 +637,7 @@ border-radius: 15px 15px 0px 0px;
 	width: 100%;
 	background-color: green;
 }
-#section2 h1
+#section2 h2
 {
 	font-size: 1.2em;
 	margin-bottom: 2px;
@@ -920,20 +929,20 @@ footer li
 	margin-bottom: 10px;
 	list-style-type: none;
 }
- .apropos h2
+ .apropos h4
 {
 
 	padding-left: 40px;
 	font-size: 1.2em;
 }
 
- .nos h2
+ .nos h4
 {
 	padding-left: 35px;
 	font-size: 1.2em;
 
 }
- .assistance h2
+ .assistance h4
 {
 	padding-left: 40px;
 	font-size: 1.2em;
@@ -1210,7 +1219,7 @@ width: 100%;
     font-size: 13px;
 }
 
-
+/*
 #section2
 {
 	width: 100%;
@@ -1324,7 +1333,7 @@ width: 339px;
 	width: 100%;
 	height: 90%;
 }
-
+*/
 /*footer
 {
 	width: 100%;
