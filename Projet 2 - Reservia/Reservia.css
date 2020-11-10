@@ -833,13 +833,16 @@ footer h4
 }
 header
 {
+	width: 90%;
+    position: relative;
 	/*width: 100%;*/
 }
 #inscrire
 {
-	position: relative;
-    bottom: 70px;
-    right: 67px;
+	position: absolute;
+    top: 0;
+    right: 0;
+	
 }
 nav 
 {
