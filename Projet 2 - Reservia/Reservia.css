@@ -9,7 +9,7 @@ body
 	width: 1300px;
 	margin:auto;
 
-	background-color: blue;
+	/*background-color: blue;*/
 }
 @font-face
 {
@@ -97,20 +97,16 @@ header h1
 }
 .recherche form
 {
-	width: 80%;
-    height: auto;
-	
-	margin-left: 20px;
-
+	width: 100%;
+    margin-left: 20px;
 }
 
 .fa-map-marker-alt
-{background-color: #F2F2F2;
-    height: 19px;
-    width: 20px;
-    padding: 11.2px 8px 9.8px 13.5px;
+{
+	background-color: #F2F2F2;
+    width: 19px;
+    padding: 11px 8px 13px 13.5px;
     border-radius: 10px 0px 0px 10px;
-    
 }
 	
 
@@ -305,7 +301,7 @@ position: relative;
 .chambre_x
 {
 	display: flex;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 #hotels #hebergements 
 {
@@ -318,7 +314,7 @@ position: relative;
 	flex-wrap: wrap;
 	justify-content:space-around;
 	margin-bottom: 20px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 
 }
 #hotels #hebergements h2
@@ -335,7 +331,7 @@ position: relative;
     height: 715px;
     background-color: #F2F2F2;
     border-radius: 15px;
-    background-color: red;
+   /* background-color: red;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -412,10 +408,7 @@ overflow: hidden;
 margin: 1.5px;
 
 }
-.chambre p
-{
-	
-}
+
 .chambre4
 {
 	width: 30.7%;
@@ -484,22 +477,7 @@ border-radius: 15px 15px 0px 0px;
 	font-size: 1.4em;
 
 }
-.chambre6 p
-{
-	
-}
-.chambre6 i
-{
-	
-}
 
-.pop img
-{
-	width: 112px ;
-	height:120px;
-	border-radius: 15px 0px 0px 15px;
-	
-}
 .pop h3
 {
 	font-size: 1.18em;
@@ -517,17 +495,10 @@ border-radius: 15px 15px 0px 0px;
 .pop i
 {
 	height: 15px;
-	
-
 }
 
-.cliché
-{
-	overflow: hidden;
-	height: 100%;
-    width: 100%
-}
-.populaire1
+
+.pop
 {
     height: 22%;
     width: 80%;
@@ -540,14 +511,14 @@ border-radius: 15px 15px 0px 0px;
     padding: 3px 3px 5px 3px;
 
 }
-.cliché1
+.cliché
 {
 	overflow: hidden;
     height: 100%;
     width: 137px;
 	
 }
-.populaire1 img
+.pop img
 {
 	width: 100%;
     height: 100%;
@@ -563,65 +534,6 @@ border-radius: 15px 15px 0px 0px;
 
 
 
-
-.populaire2
-{
-	height: 22%;
-    width: 80%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 15px;
-    font-size: 13px;
-    padding: 3px 3px 5px 3px;
-    display: flex;
-
-}
-.cliché2
-{
-	overflow: hidden;
-    height: 100%;
-    width: 137px;
-	
-}
-.populaire2 img
-{
-	width: 100%;
-    height: 100%;
-    border-radius: 15px 0px 0px 15px;
-    padding: 2%;
-	object-fit: cover;
-
-}
-
-.populaire3
-{
-	height: 22%;
-    width: 80%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    background-color: white;
-    border-radius: 15px;
-    font-size: 13px;
-    padding: 3px 3px 5px 3px;
-    display: flex;
-}
-.cliché3
-{
-	overflow: hidden;
-    height: 100%;
-    width: 137px;
-	
-}
-.populaire3 img
-{
-	width: 100%;
-    height: 100%;
-    border-radius: 15px 0px 0px 15px;
-    padding: 2%;
-	object-fit: cover;
-
-}
  .fa-star
 {
 	color: #0065FC;
@@ -777,31 +689,59 @@ footer h4
 {
     padding-left: 40px;
 }
-.petitfooter
-{
 
-}
-.petitfooter1
-{
 
-}
-.petitfooter2
-{
-
-}
-.petitfooter3
-{
-
-}
-
-/* Responsives */
+/* Responsives */   						/* Responsives */							/* Responsives */    			/* Responsives */
 
 @media all and (max-width: 768px)
 {
-	#page
+#page
 {
 	width: auto;
 	margin: auto;
+}
+.chambre_x
+{
+	display: flex;
+	flex-direction: column;
+}
+#hotels #hebergements
+{
+	width: 100%;
+}
+.chambre6 
+{
+    width: 30.7%;
+    height: 35%;
+}
+#hotels aside
+ {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.pop
+{
+	
+	width: 50%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px black solid;
+}
+.cliché
+ {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.pop img
+{
+	width: 100%;
+
 }
 #section2
 {
@@ -893,7 +833,7 @@ footer h4
 }
 header
 {
-	width: 100%;
+	/*width: 100%;*/
 }
 #inscrire
 {
@@ -903,7 +843,7 @@ header
 }
 nav 
 {
-    border-bottom: 3px #F2F2F2 solid;
+    border-bottom: 3px rgb(201, 195, 195) solid;
 }
 #desktop_btn
 {
@@ -944,7 +884,7 @@ width: 100%;
 }
 #hotels
 {
-	width: 
+	/*width:*/ 
 }
 #hotels #hebergements
 {
@@ -965,15 +905,17 @@ width: 100%;
 }
 .chambre
 {
-	width: 70%;
+	width: 334px;
+    height: 225px;
  	border-radius: 15px;
  	background-color: white;
   	font-size: 11px;
-  margin-bottom: 50px;
+  	margin-bottom: 50px;
+    box-shadow: 0px 3px 10px grey;
 
 }
 
-.chambre1 img 
+.chambre img 
 {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
@@ -981,55 +923,14 @@ width: 100%;
   
     object-fit: cover;
 }
-.chambre2 img 
-{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 100%;
-  
-    object-fit: cover;
-}
-.chambre3 img 
-{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 100%;
-  
-    object-fit: cover;
-}
-.chambre4 img 
-{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 100%;
-  
-    object-fit: cover;
-}
-.chambre5 img 
-{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 100%;
-  
-    object-fit: cover;
-}
-.chambre6 img 
-{
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 100%;
-  
-    object-fit: cover;
-}
-.chambre1
-{
-	width: 70%;
-	padding: 1%;
-}
+
+
 .image
 {
-	height: 100px;
-	overflow: hidden;
+	width: 100%;
+    height: 57%;
+    overflow: hidden;
+	
 }
 #hotels aside
 {
