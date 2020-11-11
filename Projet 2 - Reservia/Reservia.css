@@ -155,80 +155,72 @@ padding: 9px 9px 9px 11px;
 }
 .petitf
 {
-	border:3px #F2F2F2 solid;
-	border-radius: 25px;
-	padding: 8px;
-	font-weight: bold;
-	margin-right: 8px;
-	display: flex;
+	width: 130px;
+    height: 20px;
+    border: 3px #F2F2F2 solid;
+    border-radius: 25px;
+    padding: 8px 15px 8px 0px;
+    font-weight: bold;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+	
 }
 .petitf p
 {
 	width: 160px;
-    height: 31px;
-    margin: 0;
+    margin: 0px 0px 0px 10px;
 }
-.petitf1
+.petitf2
 {
-	padding-right: 15px;
-	width: 130px;
-	height: 20px;
+	padding: 8px 0px 8px 0px;
+}
+.petitf4
+{
+    width: 208px;
+    height: 20px;
+    padding: 8px 0px 8px 0px;
 }
 
 .fa-money-bill-wave
 {
 	background-color: #DEEBFF;
-	padding: 13px 11px 12px 11px ;
+	padding: 13px 13px 14px 11px;
 	border-radius: 20px;
 	color: #0065FC;
-	
+	align-self: center;
 	font-size: 0.9em;
-}
-.petitf2
-{
-	padding-right: 20px;
-	width: 100px;
-	height: 20px;
-
 }
 
 .fa-child
 {
     background-color: #DEEBFF;
-	padding: 12px 14px 12px 12px ;
+	padding: 12px 15px 13px 13px;
 	border-radius: 20px;
 	color: #0065FC;
-	
+	align-self: center;
+
 }
-.petitf3
-{
-	padding-right: 15px;
-	width: 125px;
-	height: 20px;
-}
+
 
 .fa-heart
 {
 	background-color: #DEEBFF;
-	padding: 13px 13px 10px 11px ;
+	padding: 13px 13px 12px 13px;
 	border-radius: 20px;
 	color: #0065FC; 
-	
-}
-.petitf4
-{
-	padding-right: 15px;
-	width: 185px;
-	height: 20px;
+	align-self: center;
 
 }
 
 .fa-dog
 {
 	background-color: #DEEBFF;
-	padding: 10px 10px 12px 10px ;
+	padding: 11px 13px 16px 12px;
 	border-radius: 20px;
 	color: #0065FC;
+	align-self: center;
+
 	
 }
 .rappel .fa-info
