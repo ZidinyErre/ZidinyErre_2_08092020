@@ -74,18 +74,12 @@ header h1
 	margin-bottom: 5px;
  	font-size: 18px;
  	font-weight: bold;
- 	position: relative;
  	
 }
 .centre_ville
 {
-
-	margin-left: 20px;
-	margin-top: 18px;
-	font-size: 1em;
-	position: relative;
-	bottom: 15px;
-
+    font-size: 1em;
+    margin: -5px 10px 31px 21px;
 }
 
 /*Début de la section1*/
@@ -166,7 +160,13 @@ padding: 9px 9px 9px 11px;
 	padding: 8px;
 	font-weight: bold;
 	margin-right: 8px;
-	
+	display: flex;
+}
+.petitf p
+{
+	width: 160px;
+    height: 31px;
+    margin: 0;
 }
 .petitf1
 {
@@ -174,21 +174,14 @@ padding: 9px 9px 9px 11px;
 	width: 130px;
 	height: 20px;
 }
-.petitf1 p
-{
-	position: relative;
-	bottom: 56px;
-	left: 35px;
-}
+
 .fa-money-bill-wave
 {
 	background-color: #DEEBFF;
 	padding: 13px 11px 12px 11px ;
 	border-radius: 20px;
 	color: #0065FC;
-	position: relative;
-	bottom: 10px;
-	right: 10px;
+	
 	font-size: 0.9em;
 }
 .petitf2
@@ -198,22 +191,14 @@ padding: 9px 9px 9px 11px;
 	height: 20px;
 
 }
-.petitf2 p
-{
-position: relative;
-	bottom: 56px;
-	left: 35px;
 
-}
 .fa-child
 {
     background-color: #DEEBFF;
 	padding: 12px 14px 12px 12px ;
 	border-radius: 20px;
 	color: #0065FC;
-	position: relative;
-	bottom: 10px;
-	right: 10px;
+	
 }
 .petitf3
 {
@@ -221,22 +206,14 @@ position: relative;
 	width: 125px;
 	height: 20px;
 }
-.petitf3 p
-{
-position: relative;
-	bottom: 56px;
-	left: 35px;
 
-}
 .fa-heart
 {
 	background-color: #DEEBFF;
 	padding: 13px 13px 10px 11px ;
 	border-radius: 20px;
 	color: #0065FC; 
-	position: relative;
-	 bottom: 10px;
-	right: 10px;
+	
 }
 .petitf4
 {
@@ -245,22 +222,14 @@ position: relative;
 	height: 20px;
 
 }
-.petitf4 p
-{
-position: relative;
-	bottom: 54px;
-	left: 35px;
 
-}
 .fa-dog
 {
 	background-color: #DEEBFF;
 	padding: 10px 10px 12px 10px ;
 	border-radius: 20px;
 	color: #0065FC;
-	position: relative;
-	bottom: 9.5px;
-	right: 10px;
+	
 }
 .rappel .fa-info
 {
