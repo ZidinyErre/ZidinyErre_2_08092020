@@ -107,11 +107,12 @@ header h1
 
 form input
 {
-height: 40px;
-border: 2px #F2F2F2 solid;
-padding-left: 5px;
-font-weight: bold;
-
+	height: 40px;
+	border: 2px #F2F2F2 solid;
+	padding-left: 5px;
+	font-weight: bold;
+	border-right: none;
+    border-left: none;
 
 }
 
@@ -809,12 +810,29 @@ header
 	position: absolute;
     top: 0;
     right: 0;
-	
+	border-bottom: none;
 }
 nav 
 {
     border-bottom: 3px rgb(201, 195, 195) solid;
 }
+
+nav a
+{
+ 	text-decoration: none ;
+	font-size: 1.2em;
+ 	height:20px;
+ 	padding: 35px 8px 17px 20px;
+ 	color: black;
+ 
+}
+nav a:hover
+{
+	border-bottom: 2px  #0065FC solid ;
+	color: #0065FC; 
+	border-top: none;
+}
+
 #desktop_btn
 {
 display: none;
@@ -822,7 +840,7 @@ display: none;
 #mobile_btn
 {
 	width: 42px;
-    height: 42px;
+    height: 40px;
     /* padding: 10px 12px 10px 14px; */
     border-radius: 6px 8px 6px 7px;
     background-color: #0065FC;
@@ -837,25 +855,40 @@ display: none;
 }
 .filtres 
 {
-flex-direction: column;
-width: 100%; 
+	flex-direction: column;
+	width: 100%; 
+	margin-left: 0
+}
+.filtres h3 
+{
+    font-weight: bold;
+    font-size: 1.25em;
+    font-style: normal;
+    margin-right: 15px;
+    margin-left: 22px;
 }
 .petitf
 {
 	margin-bottom: 15px;
+	margin-left: 22px;
+
 }
-.petitf2
-{
-	align-self: 
-}
+
 .chambre_x
 {
 	flex-direction: column-reverse;
 }
 #hotels
 {
-	/*width:*/ 
+	width: 100%;
+    
 }
+.recherche form 
+{
+    width: 292px;
+    margin-left: 20px;
+}
+
 #hotels #hebergements
 {
 	background-color: initial;
@@ -865,7 +898,7 @@ width: 100%;
 	text-align: center;
     margin: auto;
 }
-#hotels #hebergements h1 
+#hotels #hebergements h2 
 {
     font-size: 1.5em;
     height: 20px;
@@ -877,11 +910,12 @@ width: 100%;
 {
 	width: 334px;
     height: 225px;
- 	border-radius: 15px;
+    border-radius: 20px;
  	background-color: white;
   	font-size: 11px;
   	margin-bottom: 50px;
     box-shadow: 0px 3px 10px grey;
+    padding: 4px 6px 4px 4px;
 
 }
 
@@ -983,9 +1017,17 @@ width: 100%;
 
 #section2
 {
+	width: 100%;
 	display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+#section2 h2 
+{
+    width: auto;
+    margin-right: 90px;
+   	font-size: 1.5em;
 
 }
 #activites
@@ -1019,6 +1061,7 @@ width: 100%;
 	width: 334px;
     height: 225px;
     margin: 0px 5px 30px 5px;
+   border-radius: 20px;
 	
 }
 .lieu img
