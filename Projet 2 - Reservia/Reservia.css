@@ -179,10 +179,12 @@ padding: 9px 9px 9px 11px;
 }
 .petitf4
 {
-    width: 208px;
+	width: 207px;
     height: 20px;
     padding: 8px 0px 8px 0px;
+    border-left-width: 0.5px;
 }
+    
 
 .fa-money-bill-wave
 {
@@ -218,7 +220,7 @@ padding: 9px 9px 9px 11px;
 .fa-dog
 {
 	background-color: #DEEBFF;
-	padding: 11px 13px 16px 12px;
+	padding: 12px 13px 15px 13px;
 	border-radius: 20px;
 	color: #0065FC;
 	align-self: center;
@@ -674,6 +676,23 @@ header
 {
 	width: 100%;
 }
+header h1 
+{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header figure img 
+{
+    width: 95px;
+    padding: 8px 8px 8px 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .chambre_x
 {
 	display: flex;
@@ -710,6 +729,20 @@ header
     height: 57%;
     overflow: hidden;
 	
+}
+.chambre h3 
+{
+    font-size: 1.6em;
+}
+.chambre p 
+{
+    font-size: 1.3em;
+    margin-top: -9px;
+    margin-bottom: 8px;
+}
+.infochambre 
+{
+    margin-left: 17px;
 }
 .chambre6
 {
@@ -757,7 +790,7 @@ header
 }
 .pop
 {
-	height: 296px;
+	height: 277px;
     width: 377px;
     margin-bottom: 5%;
     margin-left: 0%;
@@ -813,6 +846,12 @@ header
     align-items: center;
 
 }
+#section2 h2 
+{
+    width: 100%;
+    font-size: 1.8em;
+    padding-left: 31px;
+}
 #activites
 {
 	display: flex;
@@ -856,26 +895,37 @@ header
 .lieu figcaption
 {
     padding: 0px 0px 0px 25px;
+   	font-size: 1.22em;
+
 }
 .lieu3
-{	
-    overflow: hidden;
-    margin: ;
+{
+	width: 537px;
+    height: 225px;
+    margin: 0px 5px 30px 5px;
+	
 }
 .lieu3 img
 {
 	width: 100%;
-    height: 80%;
-    clip-path: inset(0 0 21% 0);
-	
+    height: 98%;
+
 }
 .lieu3 figcaption
 {
-    padding: 0px 0px 0px 32px;
-
+    padding: 0px 0px 0px 25px;
 }
-
-
+.photo 
+{
+	width: 537px;
+    height: 188px;
+    overflow: hidden;
+}
+footer
+{
+	width: 100%;
+	flex-direction: row;
+}
 
 } 
 
