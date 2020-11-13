@@ -576,17 +576,24 @@ border-radius: 15px 15px 0px 0px;
 	height: 80%;
 }
 .lieu3
-{	width: 306px;
-    height: 167px;
+{	
+	
+	width: 306px;
+    height: 145px;
     overflow: hidden;
-    margin: 101px 0px 0px 3px;
+    margin: 125px 0px 0px 3px;
+
 }
 .lieu3 img
 {
-	width: 100%;
-    height: 80%;
-    clip-path: inset(0 0 21% 0);
-	
+	width: 306px;
+    height: 96px;
+}
+.photo
+{
+	width: 306px;
+    height: 113px;
+    overflow: hidden;
 }
 .lieu3 figcaption
 {
@@ -1078,18 +1085,23 @@ display: none;
 .lieu3
 {	
     overflow: hidden;
-    margin: ;
+}
+.photo
+{
+	width: 334px;
+    height: 178px;
+    overflow: hidden;
+	
 }
 .lieu3 img
 {
-	width: 100%;
-    height: 80%;
-    clip-path: inset(0 0 21% 0);
-	
+	width: 334px;
+    height: 255px;
+    clip-path: none;
 }
 .lieu3 figcaption
 {
-    padding: 0px 0px 0px 32px;
+    padding: 15px 0px 0px 32px;
 
 }
 footer
