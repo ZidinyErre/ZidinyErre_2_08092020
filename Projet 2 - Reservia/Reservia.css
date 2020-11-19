@@ -546,32 +546,46 @@ border-radius: 15px 15px 0px 0px;
 }
 .lieu figcaption
 {
-	padding: 8px 0px 0px 15px;
+	padding: 15px;
 	font-weight: bold;
 }
+
 .lieu1
 {
-    width: 280px;
-    height: 499px;
+    width: 290px;
     margin: 0px 0px 30px 15px;
+    overflow: hidden;
 }
 .lieu1 img
 {
-	width: 100%;
-	height: 90%;
-	
+	width: 323px;
+    height: 442px;
 }
+.photo1
+{
+	width: 290px;
+    height: 400px;
+    overflow: hidden;
+}
+	
+
 .lieu2
 {
 	width: 306px;
-    height: 232px;
     margin: 0px 0px 0px 3px;
 }
 .lieu2 img
 {
-	width: 100%;
-	height: 80%;
+	width: 306px;
+    height: 240px;
 }
+.photo2
+{
+	width: 306px;
+    height: 185px;
+    overflow: hidden;
+}
+
 .lieu3
 {	
 	width: 306px;
@@ -583,51 +597,68 @@ border-radius: 15px 15px 0px 0px;
 {
 	width: 306px;
 }
-.photo
+.photo3
 {
 	width: 306px;
     height: 126px;
-    overflow: hidden;
-	
+    overflow: hidden;	
 }
 .lieu3 figcaption
 {
     padding: 15px;
 
 }
+
 .lieu4
 {
-    width: 280px;
-    height: 499px;
+	width: 290px;
     margin: 0px 0px 30px 15px;
+    overflow: hidden;
 }
 .lieu4 img
 {
-	width: 100%;
-	height: 90%;
-	
+	width: 323px;
+    height: 442px;
 }
+.photo4
+{
+	width: 290px;
+    height: 400px;
+    overflow: hidden;	
+}
+
 .lieu5
 {
     width: 300px;
-    height: 232px;
     margin: 0px 0px 0px 10px;
 }
 .lieu5 img
 {
-	width: 100%;
-	height: 80%;	
+	width: 300px;	
 }
+.photo5
+{
+	width: 300px;
+    height: 146px;
+    overflow: hidden;
+}
+
 .lieu6
 {
-    width: 300px;
-    height: 232px;
-    margin: 35px 0px 0px 10px;	
+	width: 300px;
+    margin: 46px 0px 0px 10px;
+   
 }
+
 .lieu6 img
 {
-	width: 100%;
-	height: 80%;
+	width: 300px;
+}
+.photo6
+{
+	width: 300px;
+    height: 161px;
+    overflow: hidden;	
 }
 
 /*Footer*/
