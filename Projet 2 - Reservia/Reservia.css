@@ -22,10 +22,10 @@ body
 
 /*header*/
 
-header
+/*header
 {
 	width: 100%;
-}
+}*/
 #menu
 {
 	display: flex; 
@@ -264,7 +264,7 @@ padding: 9px 9px 9px 11px;
 
 /*section1*/
 
-.chambre_x
+.chambre_diverses
 {
 	display: flex;
 	/*background-color: orange;*/
@@ -372,7 +372,7 @@ margin: 1.5px;
 
 }
 
-.chambre4
+.mer
 {
 	width: 30.7%;
 	height: 35%;
@@ -383,7 +383,7 @@ margin: 1.5px;
     margin-bottom: 3%;
 
 }
-.chambre5
+.panier
 {
 	width: 30.7%;
 	height: 35%;
@@ -394,7 +394,7 @@ margin: 1.5px;
     margin-bottom: 3%;
 
 }
-.chambre6
+.amina
 {
 	width: 30.7%;
 	height: 35%;
@@ -405,21 +405,21 @@ margin: 1.5px;
     margin-bottom: 3%;
 
 }
-.chambre4 img
+.mer img
 {
 	border-radius: 15px 15px 0px 0px;
 	width: 99%;
     height: 142px;
 	object-fit: cover;
 }
-.chambre5 img
+.panier img
 {
 	border-radius: 15px 15px 0px 0px;
 	width: 99%;
     height: 142px;
 	object-fit: cover;
 }
-.chambre6 img
+.amina img
 {
 border-radius: 15px 15px 0px 0px;
     width: 99%;
@@ -428,13 +428,13 @@ border-radius: 15px 15px 0px 0px;
     clip-path: inset(0 0 27% 0);
     object-fit: cover;
 }
-.image6
+.imageamina
 {
 	overflow: hidden;
 	height: 60%;
 	margin: 1.5px;
 }
-.chambre6 h3
+.amina h3
 {
 
 	font-size: 1.4em;
@@ -506,7 +506,7 @@ border-radius: 15px 15px 0px 0px;
 
 /*Section2*/
 
-#section2 h2
+#sectionactivites h2
 {
 	width: 100%;
 }
@@ -550,18 +550,18 @@ border-radius: 15px 15px 0px 0px;
 	font-weight: bold;
 }
 
-.lieu1
+.vieuxport
 {
     width: 290px;
     margin: 0px 0px 30px 15px;
     overflow: hidden;
 }
-.lieu1 img
+.vieuxport img
 {
 	width: 323px;
     height: 442px;
 }
-.photo1
+.photovieuxport
 {
 	width: 290px;
     height: 400px;
@@ -569,92 +569,92 @@ border-radius: 15px 15px 0px 0px;
 }
 	
 
-.lieu2
+.pomègues
 {
 	width: 306px;
     margin: 0px 0px 0px 3px;
 }
-.lieu2 img
+.pomègues img
 {
 	width: 306px;
     height: 240px;
 }
-.photo2
+.photopomègues
 {
 	width: 306px;
     height: 185px;
     overflow: hidden;
 }
 
-.lieu3
+.frioul
 {	
 	width: 306px;
     overflow: hidden;
     margin: 40px 0px 0px 3px;
 	
 }
-.lieu3 img
+.frioul img
 {
 	width: 306px;
 }
-.photo3
+.photofrioul
 {
 	width: 306px;
     height: 126px;
     overflow: hidden;	
 }
-.lieu3 figcaption
+.frioul figcaption
 {
     padding: 15px;
 
 }
 
-.lieu4
+.calanques
 {
 	width: 290px;
     margin: 0px 0px 30px 15px;
     overflow: hidden;
 }
-.lieu4 img
+.calanques img
 {
 	width: 323px;
     height: 442px;
 }
-.photo4
+.photocalanques
 {
 	width: 290px;
     height: 400px;
     overflow: hidden;	
 }
 
-.lieu5
+.la-garde
 {
     width: 300px;
     margin: 0px 0px 0px 10px;
 }
-.lieu5 img
+.la-garde img
 {
 	width: 300px;	
 }
-.photo5
+.photola-garde
 {
 	width: 300px;
     height: 146px;
     overflow: hidden;
 }
 
-.lieu6
+.longchamp
 {
 	width: 300px;
     margin: 46px 0px 0px 10px;
    
 }
 
-.lieu6 img
+.longchamp img
 {
 	width: 300px;
 }
-.photo6
+.photolongchamp
 {
 	width: 300px;
     height: 161px;
@@ -720,7 +720,7 @@ header figure img
     margin-left: 20px;
     margin-right: 20px;
 }
-.chambre_x
+.chambre_diverses
 {
 	display: flex;
 	flex-direction: column;
@@ -771,7 +771,7 @@ header figure img
 {
     margin-left: 17px;
 }
-.chambre6
+.amina
 {
 	width: 334px;
     height: 225px;
@@ -784,7 +784,7 @@ header figure img
 
 }
 
-.chambre6 img 
+.amina img 
 {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
@@ -792,7 +792,7 @@ header figure img
     object-fit: cover;
     clip-path: none;
 }
-.image6
+.imageamina
 {
 	width: 100%;
     height: 57%;
@@ -866,14 +866,14 @@ header figure img
 }
 
 
-#section2
+#sectionactivites
 {
 	display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-#section2 h2 
+#sectionactivites h2 
 {
     width: 100%;
     font-size: 1.8em;
@@ -926,20 +926,20 @@ header figure img
    	font-size: 1.22em;
 
 }
-.lieu3
+.frioul
 {
 	width: 537px;
     height: 225px;
     margin: 0px 5px 30px 5px;
 	
 }
-.lieu3 img
+.frioul img
 {
 	width: 100%;
     height: 84%;
 
 }
-.lieu3 figcaption
+.frioul figcaption
 {
     padding: 0px 0px 0px 25px;
 }
@@ -1054,7 +1054,7 @@ display: none;
 
 }
 
-.chambre_x
+.chambre_diverses
 {
 	flex-direction: column-reverse;
 }
@@ -1113,7 +1113,7 @@ display: none;
     overflow: hidden;
 	
 }
-.chambre6
+.amina
 {
 	width: 334px;
     height: 225px;
@@ -1126,7 +1126,7 @@ display: none;
 
 }
 
-.chambre6 img 
+.amina img 
 {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
@@ -1134,7 +1134,7 @@ display: none;
     object-fit: cover;
     clip-path: none;
 }
-.image6
+.imageamina
 {
 	width: 100%;
     height: 57%;
@@ -1218,7 +1218,7 @@ display: none;
 	width: auto;        
 }
 
-#section2
+#sectionactivites
 {
 	width: 100%;
 	display: flex;
@@ -1226,7 +1226,7 @@ display: none;
     align-items: center;
 
 }
-#section2 h2 
+#sectionactivites h2 
 {
     width: auto;
     margin-right: 90px;
@@ -1284,23 +1284,23 @@ display: none;
     height: 169px;
     overflow: hidden;
 }
-.lieu3
+.frioul
 {	
     overflow: hidden;
 }
-.photo3
+.photofrioul
 {
 	width: 334px;
     height: 170px;
     overflow: hidden;	
 }
-.lieu3 img
+.frioul img
 {
 	width: 334px;
     height: 255px;
     clip-path: none;
 }
-.lieu3 figcaption
+.frioul figcaption
 {
     padding: 15px 0px 0px 25px;
 
