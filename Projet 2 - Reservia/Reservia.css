@@ -104,13 +104,12 @@ header h1
     padding: 11px 8px 13px 13.5px;
     border-radius: 10px 0px 0px 10px;
 }
-	
 
 form input
 {
 	height: 40px;
 	border: 2px #F2F2F2 solid;
-	padding-left: 5px;
+    padding-left: 12px;
 	font-weight: bold;
 	border-right: none;
     border-left: none;
@@ -225,7 +224,7 @@ padding: 9px 9px 9px 11px;
 
 	
 }
-.rappel .fa-info
+.rappel_info .fa-info
 {
 	color: #0065FC;
 	border: 2px #F2F2F2 solid;
@@ -234,12 +233,12 @@ padding: 9px 9px 9px 11px;
 	padding: 5px 11px 5px 11px;
 
 }
-.rappel
+.rappel_info
 {
 	font-size: 0.9em;
 	margin-left: 29px;
 	margin-top: 3px;
- 
+ 	display: flex; 
 }
 
 /* travail le overline*/
@@ -247,7 +246,6 @@ padding: 9px 9px 9px 11px;
 .d_info 
 {
 	padding-right: 30px;
-
 }
 #inscrire
 {
@@ -706,17 +704,26 @@ header h1
 {
     padding-top: 20px;
     padding-bottom: 1px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
 }
-
+.centre_ville 
+{
+    font-size: 1em;
+    margin: -5px 10px 31px 0px;
+}
+header figure 
+{
+	margin-top: 0px;
+    margin-left: 0px;
+}
 header figure img 
 {
     width: 95px;
-    padding: 8px 8px 8px 8px;
-    margin-left: 20px;
+    padding: 8px 8px 8px 1px;
+    margin-left: 0px;
     margin-right: 20px;
 }
 .chambre_diverses
@@ -727,6 +734,62 @@ header figure img
 #hotels #hebergements
 {
 	width: 100%;
+    height: 1100px;
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+}
+.recherche
+{
+	width: 100%;
+}
+.recherche form 
+{
+    margin-left: 0px;
+}
+.fa-map-marker-alt 
+{
+    background-color: #F2F2F2;
+    width: 19px;
+	padding: 10.4px 8px 13.2px 13.5px;  
+  	border-radius: 10px 0px 0px 10px;
+}
+.filtres
+{
+	width: 100%;
+	margin-left: 0;
+    margin-right: 0;
+}
+.filtres h3 
+{
+    font-weight: bold;
+    font-size: 1em;
+    font-style: normal;
+    margin-right: 8px;
+}
+.petitf 
+{
+    width: 131px;
+    height: 20px;
+}
+.petitf4 
+{
+    width: 212px;
+    height: 20px;
+}
+.rappel_info 
+{
+    font-size: 0.9em;
+    margin-left: 0px;
+    margin-top: 3px;
+    display: flex;
+}
+
+#hotels #hebergements h2
+ {
+    font-size: 1.7em;
+    width: 100%;
+    padding-left: 35px;
+    height: 0;
 }
 .chambre
 {
@@ -759,6 +822,7 @@ header figure img
 .chambre h3 
 {
     font-size: 1.6em;
+    margin-bottom: 11px;
 }
 .chambre p 
 {
@@ -805,14 +869,15 @@ header figure img
     flex-direction: column;
     align-items: center;
     display: flex;
-    width: auto;
-    height: auto;
-    overflow: hidden;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden
 }
 #hotels aside h2
  {
 	margin-bottom: 36px;
-    font-size: 1.8em;
+    font-size: 1.7em;
+    margin-top: 16px;
 }
 .pop
 {
@@ -838,26 +903,22 @@ header figure img
 .pop img 
 {
 	width: 364px;
-    height: 130px;
+    height: 150px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
     padding: 5px 5px 2px 5px;
-
-
 }
 .pop h3 
 {
 	font-size: 1.4em;
     width: 91%;
     height: 17%;
-    margin-bottom: 0px;
+    margin-bottom: 9px;
  }
  .pop p 
  {
-    
     margin-bottom: 22px;
     width: 136px;
-
 }
 .pop i
  {
@@ -874,17 +935,16 @@ header figure img
 }
 #sectionactivites h2 
 {
-    width: 100%;
-    font-size: 1.8em;
-    padding-left: 31px;
+	width: 100%;
+    font-size: 1.7em;
+    margin-left: 0;
 }
 #activites
 {
 	display: flex;
     width: auto;
     margin: auto;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 .grandlieu1
 {
@@ -954,12 +1014,15 @@ footer
 	width: 100%;
 	flex-direction: row;
 }
-
+footer div 
+{
+   margin-right: 24px; 
+}
 } 
 
 /*Iphone*/
 
-@media all  and (max-width: 480px)
+@media all  and (min-width: 320px) and (max-width: 480px)
 {
 body
 {
@@ -979,10 +1042,36 @@ body
 	margin-top: 0;
 
 }
+header figure 
+{
+    margin: 16px 0px 0px 0px;
+    width: 33%;
+}
+header figure img 
+{
+    width: 82%;
+    padding: 8px 8px 8px 1px;
+    margin-left: 9%;
+    margin-right: 20px;
+}
 header
 {
 	width: 100%;
     position: relative;
+}
+header h1 
+{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.centre_ville 
+{
+    font-size: 1em;
+    margin: -5px 10px 31px 20px;
 }
 #inscrire
 {
@@ -995,7 +1084,14 @@ nav
 {
     border-bottom: 3px rgb(201, 195, 195) solid;
 }
-
+nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    margin-right: 0px;
+    justify-content: center;
+    padding: 0;
+}
 nav a
 {
  	text-decoration: none ;
@@ -1021,12 +1117,11 @@ display: none;
 {
 	width: 42px;
     height: 40px;
-    border-radius: 6px 8px 6px 7px;
+    border-radius: 11px 11px 11px 11px;
     background-color: #0065FC;
     color: white;
     display: inline-block;
-    border: none;
-	
+    border: none;	
 }
 .fa-search
 {
@@ -1050,9 +1145,31 @@ display: none;
 {
 	margin-bottom: 15px;
 	margin-left: 22px;
-
 }
-
+.rappel_info 
+{
+    font-size: 0.9em;
+    margin-left: 0px;
+    margin-top: 3px;
+    width: 100%;
+}
+.rappel_info .fa-info 
+{
+    color: #0065FC;
+    border: 2px #F2F2F2 solid;
+    border-radius: 45px;
+    margin: 0px 13px 0px 26px;
+    padding: 5px 11px 5px 11px;
+}
+.rappel_icone
+{
+	height: 10px;
+}
+.rappel_texte
+{
+	margin: 0px 0px 19px 0px;
+    width: 71%;
+}
 .chambre_diverses
 {
 	flex-direction: column-reverse;
@@ -1072,6 +1189,7 @@ display: none;
 {
 	background-color: initial;
 	width: 100%;
+	height: 1806px;
 	display: flex;
 	align-items:  center;
     text-align: left;
@@ -1079,23 +1197,22 @@ display: none;
 }
 #hotels #hebergements h2 
 {
-    
-    font-size: 1.5em;
-    height: 20%;
+    font-size: 1.35em;
+    height: 2%;
     width: 100%;
     padding-left: 21px;
+    margin-bottom: 0;
 }
 .chambre
-{
-	width: 334px;
-    height: 225px;
+{	
+	width: 85%;
+    height: 12.5%;
     border-radius: 20px;
- 	background-color: white;
-  	font-size: 11px;
-  	margin-bottom: 50px;
-    box-shadow: 0px 3px 10px grey;
+    background-color: white;
+    font-size: 11px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 4px grey;
     padding: 4px 6px 4px 4px;
-
 }
 
 .chambre img 
@@ -1114,13 +1231,13 @@ display: none;
 }
 .amina
 {
-	width: 334px;
-    height: 225px;
+	width: 85%;
+    height: 12.5%;
     border-radius: 20px;
- 	background-color: white;
-  	font-size: 11px;
-  	margin-bottom: 50px;
-    box-shadow: 0px 3px 10px grey;
+    background-color: white;
+    font-size: 11px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 4px grey;
     padding: 4px 6px 4px 4px;
 
 }
@@ -1137,40 +1254,39 @@ display: none;
 {
 	width: 100%;
     height: 57%;
-    overflow: hidden;
-	
+    overflow: hidden;	
 }
 
 #hotels aside
 {
+    height: 560px;
 	width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    border-radius: 0px;
+
 }
 #hotels aside h2
 {
     width: 100%;
     font-size: 1.3em;
-
     display: flex;
     justify-content: space-around;
-    margin-bottom: 39px;
-    
+    margin-bottom: 0px;  
 }
 .info 
 {
-	width: 171px;
-    margin-left: 30px;
-    overflow: hidden;
-    
+    width: 100%;
+    margin-left: 11px;
+    overflow: hidden;    
 }
 .pop
 {
-	height: 25%;
-    width: 88%;
-    margin-bottom: 5%;
+    height: 26%;
+    width: 95%;
+    margin-bottom: 0;
     margin-left: 0%;
     box-shadow: 0px 3px 10px grey;
     background-color: white;
@@ -1190,27 +1306,23 @@ display: none;
 }
 .pop img 
 {
-	width: 118px;
-    height: 130px;
+	width: 140px;
+    height: 134px;
     border-radius: 15px 0px 0px 15px;
     object-fit: cover;
-    padding: 5px 5px 2px 5px;
-
+    padding: 5px 5px 2px 4px;
 }
 .pop h3 
 {
     font-size: 1.18em;
     width: 91%;
-    height: 17%;
-    
-    
- }
+    height: 17%;        
+}
  .pop p 
- {
-    
-    margin-bottom: 44px;
+{  
+	margin-bottom: 50px;
     width: 136px;
-
+    margin-top: 12px;
 }
 .pop i
  {
@@ -1227,15 +1339,14 @@ display: none;
 }
 #sectionactivites h2 
 {
-    width: auto;
-    margin-right: 90px;
-   	font-size: 1.5em;
-
+    font-size: 1.35em;
+    width: 84%;
+    margin-left: 0px;
 }
 #activites
 {
 	display: flex;
-    width: auto;
+    width: 100%;
     margin: auto;
     flex-direction: column;
     
@@ -1260,12 +1371,15 @@ display: none;
 }
 .lieu
 {
-	width: 334px;
-    height: 225px;
-    margin: 0px 5px 30px 5px;
-   border-radius: 20px;
-	
+	width: 85%;
+    height: 211px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
+	
 .lieu img
 {
 	width: 100%;
@@ -1279,8 +1393,8 @@ display: none;
 }
 .photo
 {
-	width: 334px;
-    height: 169px;
+	width: 100%;
+    height: 147px;
     overflow: hidden;
 }
 .frioul
@@ -1289,15 +1403,16 @@ display: none;
 }
 .photofrioul
 {
-	width: 334px;
-    height: 170px;
+	width: 100%;
+    height: 151px;
     overflow: hidden;	
 }
 .frioul img
 {
-	width: 334px;
-    height: 255px;
+	width: 100%;
+    height: 217px;
     clip-path: none;
+	
 }
 .frioul figcaption
 {
